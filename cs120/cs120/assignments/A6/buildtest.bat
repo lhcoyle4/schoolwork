@@ -1,0 +1,1 @@
+gcc -Wno-unused-parameter -Wno-overlength-strings -Wno-unused-function -O -Wall -Wextra -ansi -pedantic -Werror driver.c scantext.c -o scantext

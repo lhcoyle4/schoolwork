@@ -1,0 +1,1351 @@
+TimeQuest Timing Analyzer report for lcd
+Mon Mar 10 23:36:26 2014
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Slow Model Setup: 'CLOCK_50'
+ 12. Slow Model Hold: 'CLOCK_50'
+ 13. Slow Model Recovery: 'CLOCK_50'
+ 14. Slow Model Removal: 'CLOCK_50'
+ 15. Slow Model Minimum Pulse Width: 'CLOCK_50'
+ 16. Clock to Output Times
+ 17. Minimum Clock to Output Times
+ 18. Fast Model Setup Summary
+ 19. Fast Model Hold Summary
+ 20. Fast Model Recovery Summary
+ 21. Fast Model Removal Summary
+ 22. Fast Model Minimum Pulse Width Summary
+ 23. Fast Model Setup: 'CLOCK_50'
+ 24. Fast Model Hold: 'CLOCK_50'
+ 25. Fast Model Recovery: 'CLOCK_50'
+ 26. Fast Model Removal: 'CLOCK_50'
+ 27. Fast Model Minimum Pulse Width: 'CLOCK_50'
+ 28. Clock to Output Times
+ 29. Minimum Clock to Output Times
+ 30. Multicorner Timing Analysis Summary
+ 31. Clock to Output Times
+ 32. Minimum Clock to Output Times
+ 33. Setup Transfers
+ 34. Hold Transfers
+ 35. Recovery Transfers
+ 36. Removal Transfers
+ 37. Report TCCS
+ 38. Report RSKM
+ 39. Unconstrained Paths
+ 40. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; lcd                                                               ;
+; Device Family      ; Cyclone II                                                        ;
+; Device Name        ; EP2C35F672C6                                                      ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Combined                                                          ;
+; Rise/Fall Delays   ; Unavailable                                                       ;
++--------------------+-------------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                               ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+--------------+
+; Clock Name ; Type ; Period ; Frequency  ; Rise  ; Fall  ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets      ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+--------------+
+; CLOCK_50   ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { CLOCK_50 } ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+--------------+
+
+
++--------------------------------------------------+
+; Slow Model Fmax Summary                          ;
++------------+-----------------+------------+------+
+; Fmax       ; Restricted Fmax ; Clock Name ; Note ;
++------------+-----------------+------------+------+
+; 257.67 MHz ; 257.67 MHz      ; CLOCK_50   ;      ;
++------------+-----------------+------------+------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
++-----------------------------------+
+; Slow Model Setup Summary          ;
++----------+--------+---------------+
+; Clock    ; Slack  ; End Point TNS ;
++----------+--------+---------------+
+; CLOCK_50 ; -2.881 ; -147.480      ;
++----------+--------+---------------+
+
+
++----------------------------------+
+; Slow Model Hold Summary          ;
++----------+-------+---------------+
+; Clock    ; Slack ; End Point TNS ;
++----------+-------+---------------+
+; CLOCK_50 ; 0.391 ; 0.000         ;
++----------+-------+---------------+
+
+
++-----------------------------------+
+; Slow Model Recovery Summary       ;
++----------+--------+---------------+
+; Clock    ; Slack  ; End Point TNS ;
++----------+--------+---------------+
+; CLOCK_50 ; -0.667 ; -23.722       ;
++----------+--------+---------------+
+
+
++----------------------------------+
+; Slow Model Removal Summary       ;
++----------+-------+---------------+
+; Clock    ; Slack ; End Point TNS ;
++----------+-------+---------------+
+; CLOCK_50 ; 1.051 ; 0.000         ;
++----------+-------+---------------+
+
+
++----------------------------------------+
+; Slow Model Minimum Pulse Width Summary ;
++----------+--------+--------------------+
+; Clock    ; Slack  ; End Point TNS      ;
++----------+--------+--------------------+
+; CLOCK_50 ; -1.380 ; -73.380            ;
++----------+--------+--------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Model Setup: 'CLOCK_50'                                                                                                                                  ;
++--------+----------------------------------------+---------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack  ; From Node                              ; To Node                               ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++--------+----------------------------------------+---------------------------------------+--------------+-------------+--------------+------------+------------+
+; -2.881 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.917      ;
+; -2.881 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.917      ;
+; -2.881 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.917      ;
+; -2.881 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.917      ;
+; -2.881 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.917      ;
+; -2.881 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.917      ;
+; -2.881 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.917      ;
+; -2.881 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.917      ;
+; -2.868 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.914      ;
+; -2.868 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.914      ;
+; -2.868 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.914      ;
+; -2.868 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.914      ;
+; -2.868 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.914      ;
+; -2.868 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.914      ;
+; -2.868 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.914      ;
+; -2.868 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.914      ;
+; -2.839 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.885      ;
+; -2.839 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.885      ;
+; -2.839 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.885      ;
+; -2.839 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.885      ;
+; -2.839 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.885      ;
+; -2.839 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.885      ;
+; -2.839 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.885      ;
+; -2.839 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.885      ;
+; -2.779 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.815      ;
+; -2.779 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.815      ;
+; -2.779 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.815      ;
+; -2.779 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.815      ;
+; -2.779 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.815      ;
+; -2.779 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.815      ;
+; -2.779 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.815      ;
+; -2.779 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.815      ;
+; -2.701 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.747      ;
+; -2.701 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.747      ;
+; -2.701 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.747      ;
+; -2.701 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.747      ;
+; -2.701 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.747      ;
+; -2.701 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.747      ;
+; -2.701 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.747      ;
+; -2.701 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.747      ;
+; -2.673 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.709      ;
+; -2.673 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.709      ;
+; -2.673 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.709      ;
+; -2.673 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.709      ;
+; -2.673 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.709      ;
+; -2.673 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.709      ;
+; -2.673 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.709      ;
+; -2.673 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.709      ;
+; -2.627 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[9]          ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.663      ;
+; -2.627 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[10]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.663      ;
+; -2.627 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[11]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.663      ;
+; -2.627 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[12]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.663      ;
+; -2.627 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[13]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.663      ;
+; -2.627 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[14]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.663      ;
+; -2.627 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[16]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.663      ;
+; -2.627 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[17]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.663      ;
+; -2.627 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[15]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.663      ;
+; -2.565 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.601      ;
+; -2.565 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.601      ;
+; -2.565 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.601      ;
+; -2.565 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.601      ;
+; -2.565 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.601      ;
+; -2.565 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.601      ;
+; -2.565 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.601      ;
+; -2.565 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.601      ;
+; -2.547 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.593      ;
+; -2.547 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.593      ;
+; -2.547 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.593      ;
+; -2.547 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.593      ;
+; -2.547 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.593      ;
+; -2.547 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.593      ;
+; -2.547 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.593      ;
+; -2.547 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.593      ;
+; -2.545 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[9]          ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.581      ;
+; -2.545 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[10]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.581      ;
+; -2.545 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[11]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.581      ;
+; -2.545 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[12]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.581      ;
+; -2.545 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[13]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.581      ;
+; -2.545 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[14]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.581      ;
+; -2.545 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[16]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.581      ;
+; -2.545 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[17]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.581      ;
+; -2.545 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[15]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.581      ;
+; -2.539 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.575      ;
+; -2.539 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.575      ;
+; -2.539 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.575      ;
+; -2.539 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.575      ;
+; -2.539 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.575      ;
+; -2.539 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.575      ;
+; -2.539 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.575      ;
+; -2.539 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 3.575      ;
+; -2.519 ; message_write:msg_w|DELAY[5]           ; message_write:msg_w|DELAY[9]          ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.565      ;
+; -2.519 ; message_write:msg_w|DELAY[5]           ; message_write:msg_w|DELAY[10]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.565      ;
+; -2.519 ; message_write:msg_w|DELAY[5]           ; message_write:msg_w|DELAY[11]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.565      ;
+; -2.519 ; message_write:msg_w|DELAY[5]           ; message_write:msg_w|DELAY[12]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.565      ;
+; -2.519 ; message_write:msg_w|DELAY[5]           ; message_write:msg_w|DELAY[13]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.565      ;
+; -2.519 ; message_write:msg_w|DELAY[5]           ; message_write:msg_w|DELAY[14]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.565      ;
+; -2.519 ; message_write:msg_w|DELAY[5]           ; message_write:msg_w|DELAY[16]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.565      ;
+; -2.519 ; message_write:msg_w|DELAY[5]           ; message_write:msg_w|DELAY[17]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.565      ;
+; -2.519 ; message_write:msg_w|DELAY[5]           ; message_write:msg_w|DELAY[15]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.565      ;
+; -2.515 ; message_write:msg_w|DELAY[6]           ; message_write:msg_w|DELAY[9]          ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 3.561      ;
++--------+----------------------------------------+---------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Model Hold: 'CLOCK_50'                                                                                                                                                     ;
++-------+-------------------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack ; From Node                                       ; To Node                                         ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+-------------------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 0.391 ; power_on_reset_delay:por_d|Counter[0]           ; power_on_reset_delay:por_d|Counter[0]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.657      ;
+; 0.391 ; message_write:msg_w|STATE.01                    ; message_write:msg_w|STATE.01                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.657      ;
+; 0.391 ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.657      ;
+; 0.391 ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.657      ;
+; 0.391 ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.657      ;
+; 0.391 ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.657      ;
+; 0.391 ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.657      ;
+; 0.391 ; message_write:msg_w|STATE.10                    ; message_write:msg_w|STATE.10                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.657      ;
+; 0.391 ; message_write:msg_w|INST_TABLE_INDEX[0]         ; message_write:msg_w|INST_TABLE_INDEX[0]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.657      ;
+; 0.391 ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.657      ;
+; 0.391 ; message_write:msg_w|STATE.00                    ; message_write:msg_w|STATE.00                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.657      ;
+; 0.538 ; power_on_reset_delay:por_d|Counter[19]          ; power_on_reset_delay:por_d|Counter[19]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.804      ;
+; 0.538 ; message_write:msg_w|INST_TABLE_INDEX[5]         ; message_write:msg_w|INST_TABLE_INDEX[5]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.804      ;
+; 0.539 ; message_write:msg_w|lcd_driver:lcd_d|outDone    ; message_write:msg_w|STATE.10                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.805      ;
+; 0.575 ; message_write:msg_w|STATE.10                    ; message_write:msg_w|myLCD_START                 ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.841      ;
+; 0.586 ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; message_write:msg_w|lcd_driver:lcd_d|State.11   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.852      ;
+; 0.586 ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.852      ;
+; 0.730 ; message_write:msg_w|lcd_driver:lcd_d|State.01   ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.996      ;
+; 0.795 ; message_write:msg_w|DELAY[9]                    ; message_write:msg_w|DELAY[9]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.061      ;
+; 0.795 ; message_write:msg_w|DELAY[10]                   ; message_write:msg_w|DELAY[10]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.061      ;
+; 0.796 ; power_on_reset_delay:por_d|Counter[10]          ; power_on_reset_delay:por_d|Counter[10]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.062      ;
+; 0.800 ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.066      ;
+; 0.802 ; power_on_reset_delay:por_d|Counter[5]           ; power_on_reset_delay:por_d|Counter[5]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.068      ;
+; 0.802 ; power_on_reset_delay:por_d|Counter[7]           ; power_on_reset_delay:por_d|Counter[7]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.068      ;
+; 0.802 ; message_write:msg_w|DELAY[0]                    ; message_write:msg_w|DELAY[0]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.068      ;
+; 0.804 ; message_write:msg_w|DELAY[2]                    ; message_write:msg_w|DELAY[2]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.070      ;
+; 0.805 ; message_write:msg_w|DELAY[4]                    ; message_write:msg_w|DELAY[4]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.071      ;
+; 0.805 ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ; message_write:msg_w|lcd_driver:lcd_d|State.11   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.071      ;
+; 0.806 ; power_on_reset_delay:por_d|Counter[3]           ; power_on_reset_delay:por_d|Counter[3]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.072      ;
+; 0.806 ; power_on_reset_delay:por_d|Counter[8]           ; power_on_reset_delay:por_d|Counter[8]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.072      ;
+; 0.806 ; message_write:msg_w|INST_TABLE_INDEX[3]         ; message_write:msg_w|INST_TABLE_INDEX[3]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.072      ;
+; 0.806 ; message_write:msg_w|DELAY[7]                    ; message_write:msg_w|DELAY[7]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.072      ;
+; 0.809 ; message_write:msg_w|DELAY[11]                   ; message_write:msg_w|DELAY[11]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.075      ;
+; 0.810 ; message_write:msg_w|DELAY[6]                    ; message_write:msg_w|DELAY[6]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.076      ;
+; 0.810 ; message_write:msg_w|DELAY[8]                    ; message_write:msg_w|DELAY[8]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.076      ;
+; 0.813 ; power_on_reset_delay:por_d|Counter[14]          ; power_on_reset_delay:por_d|Counter[14]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.079      ;
+; 0.813 ; message_write:msg_w|DELAY[16]                   ; message_write:msg_w|DELAY[16]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.079      ;
+; 0.817 ; power_on_reset_delay:por_d|Counter[17]          ; power_on_reset_delay:por_d|Counter[17]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.083      ;
+; 0.824 ; message_write:msg_w|STATE.11                    ; message_write:msg_w|STATE.00                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.090      ;
+; 0.834 ; power_on_reset_delay:por_d|Counter[13]          ; power_on_reset_delay:por_d|Counter[13]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.100      ;
+; 0.837 ; message_write:msg_w|DELAY[17]                   ; message_write:msg_w|DELAY[17]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.103      ;
+; 0.838 ; power_on_reset_delay:por_d|Counter[15]          ; power_on_reset_delay:por_d|Counter[15]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.104      ;
+; 0.838 ; message_write:msg_w|INST_TABLE_INDEX[4]         ; message_write:msg_w|INST_TABLE_INDEX[4]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.104      ;
+; 0.838 ; message_write:msg_w|DELAY[12]                   ; message_write:msg_w|DELAY[12]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.104      ;
+; 0.840 ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.106      ;
+; 0.841 ; power_on_reset_delay:por_d|Counter[4]           ; power_on_reset_delay:por_d|Counter[4]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.107      ;
+; 0.842 ; power_on_reset_delay:por_d|Counter[6]           ; power_on_reset_delay:por_d|Counter[6]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.108      ;
+; 0.842 ; message_write:msg_w|DELAY[14]                   ; message_write:msg_w|DELAY[14]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.108      ;
+; 0.844 ; message_write:msg_w|DELAY[1]                    ; message_write:msg_w|DELAY[1]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.110      ;
+; 0.845 ; power_on_reset_delay:por_d|Counter[18]          ; power_on_reset_delay:por_d|Counter[18]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.111      ;
+; 0.845 ; power_on_reset_delay:por_d|Counter[2]           ; power_on_reset_delay:por_d|Counter[2]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.111      ;
+; 0.845 ; message_write:msg_w|DELAY[3]                    ; message_write:msg_w|DELAY[3]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.111      ;
+; 0.845 ; message_write:msg_w|DELAY[5]                    ; message_write:msg_w|DELAY[5]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.111      ;
+; 0.846 ; message_write:msg_w|INST_TABLE_INDEX[2]         ; message_write:msg_w|INST_TABLE_INDEX[2]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.112      ;
+; 0.851 ; message_write:msg_w|STATE.10                    ; message_write:msg_w|STATE.01                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.117      ;
+; 0.852 ; message_write:msg_w|STATE.11                    ; message_write:msg_w|INST_TABLE_INDEX[0]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.118      ;
+; 0.874 ; message_write:msg_w|STATE.01                    ; message_write:msg_w|STATE.10                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.140      ;
+; 0.877 ; message_write:msg_w|STATE.01                    ; message_write:msg_w|myLCD_START                 ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.143      ;
+; 0.886 ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.152      ;
+; 0.964 ; message_write:msg_w|STATE.11                    ; message_write:msg_w|STATE.01                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.230      ;
+; 0.966 ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.232      ;
+; 0.967 ; power_on_reset_delay:por_d|Counter[1]           ; power_on_reset_delay:por_d|Counter[1]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.233      ;
+; 0.978 ; power_on_reset_delay:por_d|Counter[12]          ; power_on_reset_delay:por_d|Counter[12]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.244      ;
+; 0.979 ; message_write:msg_w|DELAY[15]                   ; message_write:msg_w|DELAY[15]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.245      ;
+; 0.981 ; power_on_reset_delay:por_d|Counter[11]          ; power_on_reset_delay:por_d|Counter[11]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.247      ;
+; 0.983 ; power_on_reset_delay:por_d|Counter[16]          ; power_on_reset_delay:por_d|Counter[16]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.249      ;
+; 0.988 ; message_write:msg_w|INST_TABLE_INDEX[0]         ; message_write:msg_w|INST_TABLE_INDEX[1]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.255      ;
+; 0.990 ; message_write:msg_w|STATE.11                    ; message_write:msg_w|myLCD_START                 ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.256      ;
+; 1.002 ; message_write:msg_w|lcd_driver:lcd_d|State.01   ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.268      ;
+; 1.024 ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.290      ;
+; 1.024 ; message_write:msg_w|INST_TABLE_INDEX[1]         ; message_write:msg_w|INST_TABLE_INDEX[1]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.290      ;
+; 1.034 ; message_write:msg_w|INST_TABLE_INDEX[5]         ; message_write:msg_w|INST_TABLE_INDEX[0]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.001     ; 1.299      ;
+; 1.041 ; message_write:msg_w|DELAY[13]                   ; message_write:msg_w|DELAY[13]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.307      ;
+; 1.115 ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.381      ;
+; 1.116 ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.382      ;
+; 1.119 ; message_write:msg_w|lcd_driver:lcd_d|Start      ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.385      ;
+; 1.119 ; message_write:msg_w|lcd_driver:lcd_d|Start      ; message_write:msg_w|lcd_driver:lcd_d|State.01   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.385      ;
+; 1.119 ; message_write:msg_w|lcd_driver:lcd_d|Start      ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.385      ;
+; 1.119 ; message_write:msg_w|lcd_driver:lcd_d|Start      ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.385      ;
+; 1.119 ; message_write:msg_w|lcd_driver:lcd_d|Start      ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.385      ;
+; 1.119 ; message_write:msg_w|lcd_driver:lcd_d|Start      ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.385      ;
+; 1.119 ; message_write:msg_w|lcd_driver:lcd_d|Start      ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.385      ;
+; 1.119 ; message_write:msg_w|lcd_driver:lcd_d|Start      ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.385      ;
+; 1.119 ; message_write:msg_w|lcd_driver:lcd_d|Start      ; message_write:msg_w|lcd_driver:lcd_d|State.11   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.385      ;
+; 1.119 ; message_write:msg_w|lcd_driver:lcd_d|Start      ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.385      ;
+; 1.119 ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.385      ;
+; 1.154 ; message_write:msg_w|INST_TABLE_INDEX[2]         ; message_write:msg_w|INST_TABLE_INDEX[0]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.001     ; 1.419      ;
+; 1.178 ; message_write:msg_w|DELAY[9]                    ; message_write:msg_w|DELAY[10]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.444      ;
+; 1.178 ; message_write:msg_w|DELAY[10]                   ; message_write:msg_w|DELAY[11]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.444      ;
+; 1.179 ; power_on_reset_delay:por_d|Counter[10]          ; power_on_reset_delay:por_d|Counter[11]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.445      ;
+; 1.179 ; message_write:msg_w|lcd_driver:lcd_d|State.01   ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.445      ;
+; 1.180 ; message_write:msg_w|lcd_driver:lcd_d|State.01   ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.446      ;
+; 1.183 ; message_write:msg_w|lcd_driver:lcd_d|State.01   ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.449      ;
+; 1.185 ; power_on_reset_delay:por_d|Counter[7]           ; power_on_reset_delay:por_d|Counter[8]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.451      ;
+; 1.185 ; power_on_reset_delay:por_d|Counter[5]           ; power_on_reset_delay:por_d|Counter[6]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.451      ;
+; 1.187 ; message_write:msg_w|DELAY[2]                    ; message_write:msg_w|DELAY[3]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.453      ;
+; 1.188 ; message_write:msg_w|DELAY[4]                    ; message_write:msg_w|DELAY[5]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.454      ;
+; 1.189 ; message_write:msg_w|DELAY[7]                    ; message_write:msg_w|DELAY[8]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.455      ;
+; 1.189 ; message_write:msg_w|INST_TABLE_INDEX[3]         ; message_write:msg_w|INST_TABLE_INDEX[4]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.455      ;
+; 1.189 ; power_on_reset_delay:por_d|Counter[3]           ; power_on_reset_delay:por_d|Counter[4]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.455      ;
++-------+-------------------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Model Recovery: 'CLOCK_50'                                                                                                                                         ;
++--------+----------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack  ; From Node                              ; To Node                                         ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++--------+----------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; -0.667 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[9]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.011      ; 1.714      ;
+; -0.667 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[10]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.011      ; 1.714      ;
+; -0.667 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[11]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.011      ; 1.714      ;
+; -0.667 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[12]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.011      ; 1.714      ;
+; -0.667 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[13]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.011      ; 1.714      ;
+; -0.667 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[14]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.011      ; 1.714      ;
+; -0.667 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[16]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.011      ; 1.714      ;
+; -0.667 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[17]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.011      ; 1.714      ;
+; -0.667 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[15]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.011      ; 1.714      ;
+; -0.458 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 1.492      ;
+; -0.458 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.01   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 1.492      ;
+; -0.458 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 1.492      ;
+; -0.458 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 1.492      ;
+; -0.458 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 1.492      ;
+; -0.458 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 1.492      ;
+; -0.458 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 1.492      ;
+; -0.458 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 1.492      ;
+; -0.458 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.11   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 1.492      ;
+; -0.458 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Start      ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 1.492      ;
+; -0.458 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 1.492      ;
+; -0.454 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[3]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.001      ; 1.491      ;
+; -0.454 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[4]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.001      ; 1.491      ;
+; -0.454 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[5]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.001      ; 1.491      ;
+; -0.454 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[0]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.001      ; 1.491      ;
+; -0.454 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[1]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.001      ; 1.491      ;
+; -0.454 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[2]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.001      ; 1.491      ;
+; -0.454 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[3]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.001      ; 1.491      ;
+; -0.454 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[4]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.001      ; 1.491      ;
+; -0.454 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[5]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.001      ; 1.491      ;
+; -0.454 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[6]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.001      ; 1.491      ;
+; -0.454 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[7]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.001      ; 1.491      ;
+; -0.454 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[8]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.001      ; 1.491      ;
+; -0.454 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[2]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.001      ; 1.491      ;
+; -0.454 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[1]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.001      ; 1.491      ;
+; -0.453 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_RS                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.498      ;
+; -0.453 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[0]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.498      ;
+; -0.453 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[1]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.498      ;
+; -0.453 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[2]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.498      ;
+; -0.453 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[3]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.498      ;
+; -0.453 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[4]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.498      ;
+; -0.453 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[5]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.498      ;
+; -0.453 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[6]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.498      ;
+; -0.453 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[7]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.498      ;
+; -0.281 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.01                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.317      ;
+; -0.281 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_START                 ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.317      ;
+; -0.281 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|prevStart  ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.317      ;
+; -0.281 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|outDone    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.317      ;
+; -0.281 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.10                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.317      ;
+; -0.281 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.11                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.317      ;
+; -0.281 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[0]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.317      ;
+; -0.281 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.00                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.317      ;
++--------+----------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Model Removal: 'CLOCK_50'                                                                                                                                         ;
++-------+----------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack ; From Node                              ; To Node                                         ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+----------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 1.051 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.01                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.317      ;
+; 1.051 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_START                 ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.317      ;
+; 1.051 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|prevStart  ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.317      ;
+; 1.051 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|outDone    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.317      ;
+; 1.051 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.10                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.317      ;
+; 1.051 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.11                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.317      ;
+; 1.051 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[0]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.317      ;
+; 1.051 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.00                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 1.317      ;
+; 1.223 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_RS                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 1.498      ;
+; 1.223 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[0]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 1.498      ;
+; 1.223 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[1]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 1.498      ;
+; 1.223 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[2]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 1.498      ;
+; 1.223 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[3]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 1.498      ;
+; 1.223 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[4]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 1.498      ;
+; 1.223 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[5]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 1.498      ;
+; 1.223 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[6]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 1.498      ;
+; 1.223 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[7]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 1.498      ;
+; 1.224 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[3]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.491      ;
+; 1.224 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[4]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.491      ;
+; 1.224 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[5]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.491      ;
+; 1.224 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[0]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.491      ;
+; 1.224 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[1]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.491      ;
+; 1.224 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[2]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.491      ;
+; 1.224 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[3]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.491      ;
+; 1.224 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[4]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.491      ;
+; 1.224 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[5]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.491      ;
+; 1.224 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[6]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.491      ;
+; 1.224 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[7]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.491      ;
+; 1.224 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[8]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.491      ;
+; 1.224 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[2]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.491      ;
+; 1.224 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[1]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.001      ; 1.491      ;
+; 1.228 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 1.492      ;
+; 1.228 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.01   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 1.492      ;
+; 1.228 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 1.492      ;
+; 1.228 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 1.492      ;
+; 1.228 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 1.492      ;
+; 1.228 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 1.492      ;
+; 1.228 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 1.492      ;
+; 1.228 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 1.492      ;
+; 1.228 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.11   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 1.492      ;
+; 1.228 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Start      ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 1.492      ;
+; 1.228 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 1.492      ;
+; 1.437 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[9]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.011      ; 1.714      ;
+; 1.437 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[10]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.011      ; 1.714      ;
+; 1.437 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[11]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.011      ; 1.714      ;
+; 1.437 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[12]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.011      ; 1.714      ;
+; 1.437 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[13]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.011      ; 1.714      ;
+; 1.437 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[14]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.011      ; 1.714      ;
+; 1.437 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[16]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.011      ; 1.714      ;
+; 1.437 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[17]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.011      ; 1.714      ;
+; 1.437 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[15]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.011      ; 1.714      ;
++-------+----------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Model Minimum Pulse Width: 'CLOCK_50'                                                                                          ;
++--------+--------------+----------------+------------------+----------+------------+-------------------------------------------------+
+; Slack  ; Actual Width ; Required Width ; Type             ; Clock    ; Clock Edge ; Target                                          ;
++--------+--------------+----------------+------------------+----------+------------+-------------------------------------------------+
+; -1.380 ; 1.000        ; 2.380          ; Port Rate        ; CLOCK_50 ; Rise       ; CLOCK_50                                        ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[0]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[0]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[10]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[10]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[11]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[11]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[12]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[12]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[13]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[13]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[14]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[14]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[15]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[15]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[16]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[16]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[17]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[17]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[1]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[1]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[2]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[2]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[3]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[3]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[4]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[4]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[5]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[5]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[6]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[6]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[7]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[7]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[8]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[8]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[9]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[9]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[0]         ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[0]         ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[1]         ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[1]         ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[2]         ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[2]         ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[3]         ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[3]         ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[4]         ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[4]         ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[5]         ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[5]         ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.00                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.00                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.01                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.01                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.10                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.10                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.11                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.11                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Start      ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Start      ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.00   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.00   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.01   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.01   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.10   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.10   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.11   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.11   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|outDone    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|outDone    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|prevStart  ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|prevStart  ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[0]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[0]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[1]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[1]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[2]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[2]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[3]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[3]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[4]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[4]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[5]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[5]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[6]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[6]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[7]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[7]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_RS                    ;
++--------+--------------+----------------+------------------+----------+------------+-------------------------------------------------+
+
+
++--------------------------------------------------------------------------+
+; Clock to Output Times                                                    ;
++--------------+------------+-------+-------+------------+-----------------+
+; Data Port    ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++--------------+------------+-------+-------+------------+-----------------+
+; LCD_DATA[*]  ; CLOCK_50   ; 6.555 ; 6.555 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[0] ; CLOCK_50   ; 6.264 ; 6.264 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[1] ; CLOCK_50   ; 6.248 ; 6.248 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[2] ; CLOCK_50   ; 6.546 ; 6.546 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[3] ; CLOCK_50   ; 6.540 ; 6.540 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[4] ; CLOCK_50   ; 6.555 ; 6.555 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[5] ; CLOCK_50   ; 6.249 ; 6.249 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[6] ; CLOCK_50   ; 6.547 ; 6.547 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[7] ; CLOCK_50   ; 6.553 ; 6.553 ; Rise       ; CLOCK_50        ;
+; LCD_EN       ; CLOCK_50   ; 6.223 ; 6.223 ; Rise       ; CLOCK_50        ;
+; LCD_RS       ; CLOCK_50   ; 6.252 ; 6.252 ; Rise       ; CLOCK_50        ;
++--------------+------------+-------+-------+------------+-----------------+
+
+
++--------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                            ;
++--------------+------------+-------+-------+------------+-----------------+
+; Data Port    ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++--------------+------------+-------+-------+------------+-----------------+
+; LCD_DATA[*]  ; CLOCK_50   ; 6.248 ; 6.248 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[0] ; CLOCK_50   ; 6.264 ; 6.264 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[1] ; CLOCK_50   ; 6.248 ; 6.248 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[2] ; CLOCK_50   ; 6.546 ; 6.546 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[3] ; CLOCK_50   ; 6.540 ; 6.540 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[4] ; CLOCK_50   ; 6.555 ; 6.555 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[5] ; CLOCK_50   ; 6.249 ; 6.249 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[6] ; CLOCK_50   ; 6.547 ; 6.547 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[7] ; CLOCK_50   ; 6.553 ; 6.553 ; Rise       ; CLOCK_50        ;
+; LCD_EN       ; CLOCK_50   ; 6.223 ; 6.223 ; Rise       ; CLOCK_50        ;
+; LCD_RS       ; CLOCK_50   ; 6.252 ; 6.252 ; Rise       ; CLOCK_50        ;
++--------------+------------+-------+-------+------------+-----------------+
+
+
++-----------------------------------+
+; Fast Model Setup Summary          ;
++----------+--------+---------------+
+; Clock    ; Slack  ; End Point TNS ;
++----------+--------+---------------+
+; CLOCK_50 ; -0.791 ; -31.373       ;
++----------+--------+---------------+
+
+
++----------------------------------+
+; Fast Model Hold Summary          ;
++----------+-------+---------------+
+; Clock    ; Slack ; End Point TNS ;
++----------+-------+---------------+
+; CLOCK_50 ; 0.215 ; 0.000         ;
++----------+-------+---------------+
+
+
++----------------------------------+
+; Fast Model Recovery Summary      ;
++----------+-------+---------------+
+; Clock    ; Slack ; End Point TNS ;
++----------+-------+---------------+
+; CLOCK_50 ; 0.124 ; 0.000         ;
++----------+-------+---------------+
+
+
++----------------------------------+
+; Fast Model Removal Summary       ;
++----------+-------+---------------+
+; Clock    ; Slack ; End Point TNS ;
++----------+-------+---------------+
+; CLOCK_50 ; 0.592 ; 0.000         ;
++----------+-------+---------------+
+
+
++----------------------------------------+
+; Fast Model Minimum Pulse Width Summary ;
++----------+--------+--------------------+
+; Clock    ; Slack  ; End Point TNS      ;
++----------+--------+--------------------+
+; CLOCK_50 ; -1.380 ; -73.380            ;
++----------+--------+--------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Model Setup: 'CLOCK_50'                                                                                                                                  ;
++--------+----------------------------------------+---------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack  ; From Node                              ; To Node                               ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++--------+----------------------------------------+---------------------------------------+--------------+-------------+--------------+------------+------------+
+; -0.791 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.823      ;
+; -0.791 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.823      ;
+; -0.791 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.823      ;
+; -0.791 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.823      ;
+; -0.791 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.823      ;
+; -0.791 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.823      ;
+; -0.791 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.823      ;
+; -0.791 ; power_on_reset_delay:por_d|Counter[8]  ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.823      ;
+; -0.770 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.811      ;
+; -0.770 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.811      ;
+; -0.770 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.811      ;
+; -0.770 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.811      ;
+; -0.770 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.811      ;
+; -0.770 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.811      ;
+; -0.770 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.811      ;
+; -0.770 ; power_on_reset_delay:por_d|Counter[9]  ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.811      ;
+; -0.763 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.804      ;
+; -0.763 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.804      ;
+; -0.763 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.804      ;
+; -0.763 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.804      ;
+; -0.763 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.804      ;
+; -0.763 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.804      ;
+; -0.763 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.804      ;
+; -0.763 ; power_on_reset_delay:por_d|Counter[11] ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.804      ;
+; -0.747 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.779      ;
+; -0.747 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.779      ;
+; -0.747 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.779      ;
+; -0.747 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.779      ;
+; -0.747 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.779      ;
+; -0.747 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.779      ;
+; -0.747 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.779      ;
+; -0.747 ; power_on_reset_delay:por_d|Counter[3]  ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.779      ;
+; -0.705 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.737      ;
+; -0.705 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.737      ;
+; -0.705 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.737      ;
+; -0.705 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.737      ;
+; -0.705 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.737      ;
+; -0.705 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.737      ;
+; -0.705 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.737      ;
+; -0.705 ; power_on_reset_delay:por_d|Counter[5]  ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.737      ;
+; -0.697 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.738      ;
+; -0.697 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.738      ;
+; -0.697 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.738      ;
+; -0.697 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.738      ;
+; -0.697 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.738      ;
+; -0.697 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.738      ;
+; -0.697 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.738      ;
+; -0.697 ; power_on_reset_delay:por_d|Counter[12] ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.738      ;
+; -0.670 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[9]          ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.702      ;
+; -0.670 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[10]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.702      ;
+; -0.670 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[11]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.702      ;
+; -0.670 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[12]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.702      ;
+; -0.670 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[13]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.702      ;
+; -0.670 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[14]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.702      ;
+; -0.670 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[16]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.702      ;
+; -0.670 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[17]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.702      ;
+; -0.670 ; message_write:msg_w|DELAY[14]          ; message_write:msg_w|DELAY[15]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.702      ;
+; -0.657 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.698      ;
+; -0.657 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.698      ;
+; -0.657 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.698      ;
+; -0.657 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.698      ;
+; -0.657 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.698      ;
+; -0.657 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.698      ;
+; -0.657 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.698      ;
+; -0.657 ; power_on_reset_delay:por_d|Counter[10] ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 1.698      ;
+; -0.653 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.685      ;
+; -0.653 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.685      ;
+; -0.653 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.685      ;
+; -0.653 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.685      ;
+; -0.653 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.685      ;
+; -0.653 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.685      ;
+; -0.653 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.685      ;
+; -0.653 ; power_on_reset_delay:por_d|Counter[1]  ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.685      ;
+; -0.643 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.675      ;
+; -0.643 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.675      ;
+; -0.643 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.675      ;
+; -0.643 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.675      ;
+; -0.643 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.675      ;
+; -0.643 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.675      ;
+; -0.643 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.675      ;
+; -0.643 ; power_on_reset_delay:por_d|Counter[6]  ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.675      ;
+; -0.638 ; power_on_reset_delay:por_d|Counter[2]  ; power_on_reset_delay:por_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.670      ;
+; -0.638 ; power_on_reset_delay:por_d|Counter[2]  ; power_on_reset_delay:por_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.670      ;
+; -0.638 ; power_on_reset_delay:por_d|Counter[2]  ; power_on_reset_delay:por_d|Counter[5] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.670      ;
+; -0.638 ; power_on_reset_delay:por_d|Counter[2]  ; power_on_reset_delay:por_d|Counter[6] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.670      ;
+; -0.638 ; power_on_reset_delay:por_d|Counter[2]  ; power_on_reset_delay:por_d|Counter[7] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.670      ;
+; -0.638 ; power_on_reset_delay:por_d|Counter[2]  ; power_on_reset_delay:por_d|Counter[8] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.670      ;
+; -0.638 ; power_on_reset_delay:por_d|Counter[2]  ; power_on_reset_delay:por_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.670      ;
+; -0.638 ; power_on_reset_delay:por_d|Counter[2]  ; power_on_reset_delay:por_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.670      ;
+; -0.637 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[9]          ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.669      ;
+; -0.637 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[10]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.669      ;
+; -0.637 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[11]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.669      ;
+; -0.637 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[12]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.669      ;
+; -0.637 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[13]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.669      ;
+; -0.637 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[14]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.669      ;
+; -0.637 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[16]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.669      ;
+; -0.637 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[17]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.669      ;
+; -0.637 ; message_write:msg_w|DELAY[10]          ; message_write:msg_w|DELAY[15]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.669      ;
+; -0.625 ; message_write:msg_w|DELAY[11]          ; message_write:msg_w|DELAY[9]          ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.657      ;
+; -0.625 ; message_write:msg_w|DELAY[11]          ; message_write:msg_w|DELAY[10]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 1.657      ;
++--------+----------------------------------------+---------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Model Hold: 'CLOCK_50'                                                                                                                                                     ;
++-------+-------------------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack ; From Node                                       ; To Node                                         ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+-------------------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 0.215 ; power_on_reset_delay:por_d|Counter[0]           ; power_on_reset_delay:por_d|Counter[0]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.367      ;
+; 0.215 ; message_write:msg_w|STATE.01                    ; message_write:msg_w|STATE.01                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.367      ;
+; 0.215 ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.367      ;
+; 0.215 ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.367      ;
+; 0.215 ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.367      ;
+; 0.215 ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.367      ;
+; 0.215 ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.367      ;
+; 0.215 ; message_write:msg_w|STATE.10                    ; message_write:msg_w|STATE.10                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.367      ;
+; 0.215 ; message_write:msg_w|INST_TABLE_INDEX[0]         ; message_write:msg_w|INST_TABLE_INDEX[0]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.367      ;
+; 0.215 ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.367      ;
+; 0.215 ; message_write:msg_w|STATE.00                    ; message_write:msg_w|STATE.00                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.367      ;
+; 0.246 ; message_write:msg_w|INST_TABLE_INDEX[5]         ; message_write:msg_w|INST_TABLE_INDEX[5]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.398      ;
+; 0.249 ; power_on_reset_delay:por_d|Counter[19]          ; power_on_reset_delay:por_d|Counter[19]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.401      ;
+; 0.249 ; message_write:msg_w|lcd_driver:lcd_d|outDone    ; message_write:msg_w|STATE.10                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.401      ;
+; 0.271 ; message_write:msg_w|STATE.10                    ; message_write:msg_w|myLCD_START                 ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.423      ;
+; 0.278 ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; message_write:msg_w|lcd_driver:lcd_d|State.11   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.430      ;
+; 0.278 ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.430      ;
+; 0.338 ; message_write:msg_w|lcd_driver:lcd_d|State.01   ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.490      ;
+; 0.355 ; message_write:msg_w|DELAY[9]                    ; message_write:msg_w|DELAY[9]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.507      ;
+; 0.355 ; message_write:msg_w|DELAY[10]                   ; message_write:msg_w|DELAY[10]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.507      ;
+; 0.357 ; power_on_reset_delay:por_d|Counter[10]          ; power_on_reset_delay:por_d|Counter[10]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.509      ;
+; 0.360 ; power_on_reset_delay:por_d|Counter[3]           ; power_on_reset_delay:por_d|Counter[3]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.512      ;
+; 0.360 ; power_on_reset_delay:por_d|Counter[5]           ; power_on_reset_delay:por_d|Counter[5]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.512      ;
+; 0.360 ; power_on_reset_delay:por_d|Counter[7]           ; power_on_reset_delay:por_d|Counter[7]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.512      ;
+; 0.361 ; power_on_reset_delay:por_d|Counter[8]           ; power_on_reset_delay:por_d|Counter[8]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.513      ;
+; 0.361 ; message_write:msg_w|INST_TABLE_INDEX[3]         ; message_write:msg_w|INST_TABLE_INDEX[3]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.513      ;
+; 0.361 ; message_write:msg_w|DELAY[0]                    ; message_write:msg_w|DELAY[0]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.513      ;
+; 0.361 ; message_write:msg_w|DELAY[2]                    ; message_write:msg_w|DELAY[2]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.513      ;
+; 0.362 ; message_write:msg_w|DELAY[4]                    ; message_write:msg_w|DELAY[4]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.514      ;
+; 0.362 ; message_write:msg_w|DELAY[11]                   ; message_write:msg_w|DELAY[11]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.514      ;
+; 0.363 ; message_write:msg_w|DELAY[6]                    ; message_write:msg_w|DELAY[6]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.515      ;
+; 0.363 ; message_write:msg_w|DELAY[7]                    ; message_write:msg_w|DELAY[7]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.515      ;
+; 0.363 ; message_write:msg_w|DELAY[8]                    ; message_write:msg_w|DELAY[8]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.515      ;
+; 0.365 ; message_write:msg_w|DELAY[16]                   ; message_write:msg_w|DELAY[16]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.517      ;
+; 0.367 ; power_on_reset_delay:por_d|Counter[14]          ; power_on_reset_delay:por_d|Counter[14]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.519      ;
+; 0.370 ; power_on_reset_delay:por_d|Counter[17]          ; power_on_reset_delay:por_d|Counter[17]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.522      ;
+; 0.371 ; power_on_reset_delay:por_d|Counter[13]          ; power_on_reset_delay:por_d|Counter[13]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.523      ;
+; 0.371 ; power_on_reset_delay:por_d|Counter[15]          ; power_on_reset_delay:por_d|Counter[15]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.523      ;
+; 0.371 ; message_write:msg_w|DELAY[17]                   ; message_write:msg_w|DELAY[17]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.523      ;
+; 0.372 ; message_write:msg_w|INST_TABLE_INDEX[4]         ; message_write:msg_w|INST_TABLE_INDEX[4]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.524      ;
+; 0.373 ; message_write:msg_w|DELAY[12]                   ; message_write:msg_w|DELAY[12]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.525      ;
+; 0.373 ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.525      ;
+; 0.374 ; message_write:msg_w|DELAY[14]                   ; message_write:msg_w|DELAY[14]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.526      ;
+; 0.374 ; message_write:msg_w|INST_TABLE_INDEX[2]         ; message_write:msg_w|INST_TABLE_INDEX[2]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.526      ;
+; 0.375 ; power_on_reset_delay:por_d|Counter[2]           ; power_on_reset_delay:por_d|Counter[2]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.527      ;
+; 0.375 ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.527      ;
+; 0.376 ; power_on_reset_delay:por_d|Counter[4]           ; power_on_reset_delay:por_d|Counter[4]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.528      ;
+; 0.376 ; power_on_reset_delay:por_d|Counter[6]           ; power_on_reset_delay:por_d|Counter[6]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.528      ;
+; 0.377 ; power_on_reset_delay:por_d|Counter[18]          ; power_on_reset_delay:por_d|Counter[18]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.529      ;
+; 0.377 ; message_write:msg_w|DELAY[1]                    ; message_write:msg_w|DELAY[1]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.529      ;
+; 0.377 ; message_write:msg_w|DELAY[3]                    ; message_write:msg_w|DELAY[3]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.529      ;
+; 0.377 ; message_write:msg_w|DELAY[5]                    ; message_write:msg_w|DELAY[5]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.529      ;
+; 0.377 ; message_write:msg_w|STATE.11                    ; message_write:msg_w|STATE.00                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.529      ;
+; 0.381 ; message_write:msg_w|STATE.11                    ; message_write:msg_w|INST_TABLE_INDEX[0]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.533      ;
+; 0.386 ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ; message_write:msg_w|lcd_driver:lcd_d|State.11   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.538      ;
+; 0.392 ; message_write:msg_w|STATE.01                    ; message_write:msg_w|STATE.10                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.544      ;
+; 0.394 ; message_write:msg_w|STATE.10                    ; message_write:msg_w|STATE.01                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.546      ;
+; 0.395 ; message_write:msg_w|STATE.01                    ; message_write:msg_w|myLCD_START                 ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.547      ;
+; 0.402 ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.554      ;
+; 0.435 ; power_on_reset_delay:por_d|Counter[1]           ; power_on_reset_delay:por_d|Counter[1]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.587      ;
+; 0.436 ; power_on_reset_delay:por_d|Counter[12]          ; power_on_reset_delay:por_d|Counter[12]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.588      ;
+; 0.438 ; message_write:msg_w|DELAY[15]                   ; message_write:msg_w|DELAY[15]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.590      ;
+; 0.440 ; power_on_reset_delay:por_d|Counter[11]          ; power_on_reset_delay:por_d|Counter[11]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.592      ;
+; 0.442 ; power_on_reset_delay:por_d|Counter[16]          ; power_on_reset_delay:por_d|Counter[16]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.594      ;
+; 0.443 ; message_write:msg_w|INST_TABLE_INDEX[0]         ; message_write:msg_w|INST_TABLE_INDEX[1]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.597      ;
+; 0.443 ; message_write:msg_w|STATE.11                    ; message_write:msg_w|myLCD_START                 ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.595      ;
+; 0.445 ; message_write:msg_w|STATE.11                    ; message_write:msg_w|STATE.01                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.597      ;
+; 0.452 ; message_write:msg_w|lcd_driver:lcd_d|State.01   ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.604      ;
+; 0.455 ; message_write:msg_w|INST_TABLE_INDEX[1]         ; message_write:msg_w|INST_TABLE_INDEX[1]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.607      ;
+; 0.459 ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.611      ;
+; 0.465 ; message_write:msg_w|DELAY[13]                   ; message_write:msg_w|DELAY[13]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.617      ;
+; 0.465 ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.617      ;
+; 0.471 ; message_write:msg_w|INST_TABLE_INDEX[5]         ; message_write:msg_w|INST_TABLE_INDEX[0]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 0.621      ;
+; 0.490 ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.642      ;
+; 0.491 ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.643      ;
+; 0.493 ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.645      ;
+; 0.493 ; message_write:msg_w|DELAY[9]                    ; message_write:msg_w|DELAY[10]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.645      ;
+; 0.493 ; message_write:msg_w|DELAY[10]                   ; message_write:msg_w|DELAY[11]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.645      ;
+; 0.495 ; power_on_reset_delay:por_d|Counter[10]          ; power_on_reset_delay:por_d|Counter[11]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.647      ;
+; 0.498 ; power_on_reset_delay:por_d|Counter[7]           ; power_on_reset_delay:por_d|Counter[8]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.650      ;
+; 0.498 ; power_on_reset_delay:por_d|Counter[3]           ; power_on_reset_delay:por_d|Counter[4]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.650      ;
+; 0.498 ; power_on_reset_delay:por_d|Counter[5]           ; power_on_reset_delay:por_d|Counter[6]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.650      ;
+; 0.499 ; message_write:msg_w|INST_TABLE_INDEX[3]         ; message_write:msg_w|INST_TABLE_INDEX[4]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.651      ;
+; 0.499 ; message_write:msg_w|DELAY[2]                    ; message_write:msg_w|DELAY[3]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.651      ;
+; 0.500 ; message_write:msg_w|DELAY[11]                   ; message_write:msg_w|DELAY[12]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.652      ;
+; 0.500 ; message_write:msg_w|DELAY[4]                    ; message_write:msg_w|DELAY[5]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.652      ;
+; 0.501 ; message_write:msg_w|DELAY[6]                    ; message_write:msg_w|DELAY[7]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.653      ;
+; 0.501 ; message_write:msg_w|DELAY[7]                    ; message_write:msg_w|DELAY[8]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.653      ;
+; 0.505 ; power_on_reset_delay:por_d|Counter[14]          ; power_on_reset_delay:por_d|Counter[15]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.657      ;
+; 0.511 ; power_on_reset_delay:por_d|Counter[13]          ; power_on_reset_delay:por_d|Counter[14]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.663      ;
+; 0.511 ; power_on_reset_delay:por_d|Counter[15]          ; power_on_reset_delay:por_d|Counter[16]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.663      ;
+; 0.512 ; message_write:msg_w|INST_TABLE_INDEX[2]         ; message_write:msg_w|INST_TABLE_INDEX[0]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 0.662      ;
+; 0.512 ; message_write:msg_w|INST_TABLE_INDEX[4]         ; message_write:msg_w|INST_TABLE_INDEX[5]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.664      ;
+; 0.513 ; message_write:msg_w|DELAY[12]                   ; message_write:msg_w|DELAY[13]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.665      ;
+; 0.514 ; message_write:msg_w|INST_TABLE_INDEX[2]         ; message_write:msg_w|INST_TABLE_INDEX[3]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.666      ;
+; 0.514 ; message_write:msg_w|DELAY[14]                   ; message_write:msg_w|DELAY[15]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.666      ;
+; 0.515 ; power_on_reset_delay:por_d|Counter[2]           ; power_on_reset_delay:por_d|Counter[3]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.667      ;
+; 0.516 ; power_on_reset_delay:por_d|Counter[4]           ; power_on_reset_delay:por_d|Counter[5]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.668      ;
+; 0.516 ; power_on_reset_delay:por_d|Counter[6]           ; power_on_reset_delay:por_d|Counter[7]           ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.668      ;
+; 0.517 ; power_on_reset_delay:por_d|Counter[18]          ; power_on_reset_delay:por_d|Counter[19]          ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.669      ;
++-------+-------------------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Model Recovery: 'CLOCK_50'                                                                                                                                        ;
++-------+----------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack ; From Node                              ; To Node                                         ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+----------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 0.124 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[9]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 0.918      ;
+; 0.124 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[10]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 0.918      ;
+; 0.124 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[11]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 0.918      ;
+; 0.124 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[12]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 0.918      ;
+; 0.124 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[13]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 0.918      ;
+; 0.124 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[14]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 0.918      ;
+; 0.124 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[16]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 0.918      ;
+; 0.124 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[17]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 0.918      ;
+; 0.124 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[15]                   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.010      ; 0.918      ;
+; 0.210 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 0.820      ;
+; 0.210 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.01   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 0.820      ;
+; 0.210 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 0.820      ;
+; 0.210 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 0.820      ;
+; 0.210 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 0.820      ;
+; 0.210 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 0.820      ;
+; 0.210 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 0.820      ;
+; 0.210 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 0.820      ;
+; 0.210 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.11   ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 0.820      ;
+; 0.210 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Start      ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 0.820      ;
+; 0.210 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; CLOCK_50     ; CLOCK_50    ; 1.000        ; -0.002     ; 0.820      ;
+; 0.214 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[3]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.002      ; 0.820      ;
+; 0.214 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[4]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.002      ; 0.820      ;
+; 0.214 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[5]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.002      ; 0.820      ;
+; 0.214 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[0]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.002      ; 0.820      ;
+; 0.214 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[1]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.002      ; 0.820      ;
+; 0.214 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[2]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.002      ; 0.820      ;
+; 0.214 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[3]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.002      ; 0.820      ;
+; 0.214 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[4]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.002      ; 0.820      ;
+; 0.214 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[5]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.002      ; 0.820      ;
+; 0.214 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[6]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.002      ; 0.820      ;
+; 0.214 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[7]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.002      ; 0.820      ;
+; 0.214 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[8]                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.002      ; 0.820      ;
+; 0.214 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[2]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.002      ; 0.820      ;
+; 0.214 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[1]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.002      ; 0.820      ;
+; 0.217 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_RS                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 0.824      ;
+; 0.217 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[0]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 0.824      ;
+; 0.217 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[1]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 0.824      ;
+; 0.217 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[2]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 0.824      ;
+; 0.217 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[3]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 0.824      ;
+; 0.217 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[4]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 0.824      ;
+; 0.217 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[5]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 0.824      ;
+; 0.217 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[6]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 0.824      ;
+; 0.217 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[7]               ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.009      ; 0.824      ;
+; 0.288 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.01                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 0.744      ;
+; 0.288 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_START                 ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 0.744      ;
+; 0.288 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|prevStart  ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 0.744      ;
+; 0.288 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|outDone    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 0.744      ;
+; 0.288 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.10                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 0.744      ;
+; 0.288 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.11                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 0.744      ;
+; 0.288 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[0]         ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 0.744      ;
+; 0.288 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.00                    ; CLOCK_50     ; CLOCK_50    ; 1.000        ; 0.000      ; 0.744      ;
++-------+----------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Model Removal: 'CLOCK_50'                                                                                                                                         ;
++-------+----------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack ; From Node                              ; To Node                                         ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+----------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 0.592 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.01                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.744      ;
+; 0.592 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_START                 ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.744      ;
+; 0.592 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|prevStart  ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.744      ;
+; 0.592 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|outDone    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.744      ;
+; 0.592 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.10                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.744      ;
+; 0.592 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.11                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.744      ;
+; 0.592 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[0]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.744      ;
+; 0.592 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|STATE.00                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.000      ; 0.744      ;
+; 0.663 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_RS                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 0.824      ;
+; 0.663 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[0]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 0.824      ;
+; 0.663 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[1]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 0.824      ;
+; 0.663 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[2]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 0.824      ;
+; 0.663 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[3]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 0.824      ;
+; 0.663 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[4]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 0.824      ;
+; 0.663 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[5]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 0.824      ;
+; 0.663 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[6]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 0.824      ;
+; 0.663 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|myLCD_DATA[7]               ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.009      ; 0.824      ;
+; 0.666 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[3]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.820      ;
+; 0.666 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[4]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.820      ;
+; 0.666 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[5]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.820      ;
+; 0.666 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[0]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.820      ;
+; 0.666 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[1]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.820      ;
+; 0.666 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[2]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.820      ;
+; 0.666 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[3]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.820      ;
+; 0.666 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[4]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.820      ;
+; 0.666 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[5]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.820      ;
+; 0.666 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[6]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.820      ;
+; 0.666 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[7]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.820      ;
+; 0.666 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[8]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.820      ;
+; 0.666 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[2]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.820      ;
+; 0.666 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|INST_TABLE_INDEX[1]         ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.002      ; 0.820      ;
+; 0.670 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.00   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 0.820      ;
+; 0.670 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.01   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 0.820      ;
+; 0.670 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 0.820      ;
+; 0.670 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 0.820      ;
+; 0.670 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 0.820      ;
+; 0.670 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 0.820      ;
+; 0.670 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 0.820      ;
+; 0.670 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.10   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 0.820      ;
+; 0.670 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|State.11   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 0.820      ;
+; 0.670 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|Start      ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 0.820      ;
+; 0.670 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ; CLOCK_50     ; CLOCK_50    ; 0.000        ; -0.002     ; 0.820      ;
+; 0.756 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[9]                    ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.010      ; 0.918      ;
+; 0.756 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[10]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.010      ; 0.918      ;
+; 0.756 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[11]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.010      ; 0.918      ;
+; 0.756 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[12]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.010      ; 0.918      ;
+; 0.756 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[13]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.010      ; 0.918      ;
+; 0.756 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[14]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.010      ; 0.918      ;
+; 0.756 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[16]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.010      ; 0.918      ;
+; 0.756 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[17]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.010      ; 0.918      ;
+; 0.756 ; power_on_reset_delay:por_d|outResetNeg ; message_write:msg_w|DELAY[15]                   ; CLOCK_50     ; CLOCK_50    ; 0.000        ; 0.010      ; 0.918      ;
++-------+----------------------------------------+-------------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Model Minimum Pulse Width: 'CLOCK_50'                                                                                          ;
++--------+--------------+----------------+------------------+----------+------------+-------------------------------------------------+
+; Slack  ; Actual Width ; Required Width ; Type             ; Clock    ; Clock Edge ; Target                                          ;
++--------+--------------+----------------+------------------+----------+------------+-------------------------------------------------+
+; -1.380 ; 1.000        ; 2.380          ; Port Rate        ; CLOCK_50 ; Rise       ; CLOCK_50                                        ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[0]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[0]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[10]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[10]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[11]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[11]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[12]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[12]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[13]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[13]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[14]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[14]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[15]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[15]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[16]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[16]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[17]                   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[17]                   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[1]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[1]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[2]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[2]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[3]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[3]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[4]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[4]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[5]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[5]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[6]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[6]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[7]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[7]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[8]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[8]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[9]                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|DELAY[9]                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[0]         ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[0]         ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[1]         ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[1]         ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[2]         ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[2]         ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[3]         ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[3]         ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[4]         ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[4]         ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[5]         ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|INST_TABLE_INDEX[5]         ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.00                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.00                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.01                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.01                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.10                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.10                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.11                    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|STATE.11                    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[0] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[1] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[2] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[3] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Counter[4] ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|LCD_EN     ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Start      ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|Start      ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.00   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.00   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.01   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.01   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.10   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.10   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.11   ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|State.11   ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|outDone    ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|outDone    ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|prevStart  ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|lcd_driver:lcd_d|prevStart  ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[0]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[0]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[1]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[1]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[2]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[2]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[3]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[3]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[4]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[4]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[5]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[5]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[6]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[6]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[7]               ;
+; -0.500 ; 0.500        ; 1.000          ; Low Pulse Width  ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_DATA[7]               ;
+; -0.500 ; 0.500        ; 1.000          ; High Pulse Width ; CLOCK_50 ; Rise       ; message_write:msg_w|myLCD_RS                    ;
++--------+--------------+----------------+------------------+----------+------------+-------------------------------------------------+
+
+
++--------------------------------------------------------------------------+
+; Clock to Output Times                                                    ;
++--------------+------------+-------+-------+------------+-----------------+
+; Data Port    ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++--------------+------------+-------+-------+------------+-----------------+
+; LCD_DATA[*]  ; CLOCK_50   ; 3.680 ; 3.680 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[0] ; CLOCK_50   ; 3.543 ; 3.543 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[1] ; CLOCK_50   ; 3.534 ; 3.534 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[2] ; CLOCK_50   ; 3.673 ; 3.673 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[3] ; CLOCK_50   ; 3.669 ; 3.669 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[4] ; CLOCK_50   ; 3.668 ; 3.668 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[5] ; CLOCK_50   ; 3.535 ; 3.535 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[6] ; CLOCK_50   ; 3.673 ; 3.673 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[7] ; CLOCK_50   ; 3.680 ; 3.680 ; Rise       ; CLOCK_50        ;
+; LCD_EN       ; CLOCK_50   ; 3.510 ; 3.510 ; Rise       ; CLOCK_50        ;
+; LCD_RS       ; CLOCK_50   ; 3.536 ; 3.536 ; Rise       ; CLOCK_50        ;
++--------------+------------+-------+-------+------------+-----------------+
+
+
++--------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                            ;
++--------------+------------+-------+-------+------------+-----------------+
+; Data Port    ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++--------------+------------+-------+-------+------------+-----------------+
+; LCD_DATA[*]  ; CLOCK_50   ; 3.534 ; 3.534 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[0] ; CLOCK_50   ; 3.543 ; 3.543 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[1] ; CLOCK_50   ; 3.534 ; 3.534 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[2] ; CLOCK_50   ; 3.673 ; 3.673 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[3] ; CLOCK_50   ; 3.669 ; 3.669 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[4] ; CLOCK_50   ; 3.668 ; 3.668 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[5] ; CLOCK_50   ; 3.535 ; 3.535 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[6] ; CLOCK_50   ; 3.673 ; 3.673 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[7] ; CLOCK_50   ; 3.680 ; 3.680 ; Rise       ; CLOCK_50        ;
+; LCD_EN       ; CLOCK_50   ; 3.510 ; 3.510 ; Rise       ; CLOCK_50        ;
+; LCD_RS       ; CLOCK_50   ; 3.536 ; 3.536 ; Rise       ; CLOCK_50        ;
++--------------+------------+-------+-------+------------+-----------------+
+
+
++--------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                            ;
++------------------+----------+-------+----------+---------+---------------------+
+; Clock            ; Setup    ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+----------+-------+----------+---------+---------------------+
+; Worst-case Slack ; -2.881   ; 0.215 ; -0.667   ; 0.592   ; -1.380              ;
+;  CLOCK_50        ; -2.881   ; 0.215 ; -0.667   ; 0.592   ; -1.380              ;
+; Design-wide TNS  ; -147.48  ; 0.0   ; -23.722  ; 0.0     ; -73.38              ;
+;  CLOCK_50        ; -147.480 ; 0.000 ; -23.722  ; 0.000   ; -73.380             ;
++------------------+----------+-------+----------+---------+---------------------+
+
+
++--------------------------------------------------------------------------+
+; Clock to Output Times                                                    ;
++--------------+------------+-------+-------+------------+-----------------+
+; Data Port    ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++--------------+------------+-------+-------+------------+-----------------+
+; LCD_DATA[*]  ; CLOCK_50   ; 6.555 ; 6.555 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[0] ; CLOCK_50   ; 6.264 ; 6.264 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[1] ; CLOCK_50   ; 6.248 ; 6.248 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[2] ; CLOCK_50   ; 6.546 ; 6.546 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[3] ; CLOCK_50   ; 6.540 ; 6.540 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[4] ; CLOCK_50   ; 6.555 ; 6.555 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[5] ; CLOCK_50   ; 6.249 ; 6.249 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[6] ; CLOCK_50   ; 6.547 ; 6.547 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[7] ; CLOCK_50   ; 6.553 ; 6.553 ; Rise       ; CLOCK_50        ;
+; LCD_EN       ; CLOCK_50   ; 6.223 ; 6.223 ; Rise       ; CLOCK_50        ;
+; LCD_RS       ; CLOCK_50   ; 6.252 ; 6.252 ; Rise       ; CLOCK_50        ;
++--------------+------------+-------+-------+------------+-----------------+
+
+
++--------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                            ;
++--------------+------------+-------+-------+------------+-----------------+
+; Data Port    ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++--------------+------------+-------+-------+------------+-----------------+
+; LCD_DATA[*]  ; CLOCK_50   ; 3.534 ; 3.534 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[0] ; CLOCK_50   ; 3.543 ; 3.543 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[1] ; CLOCK_50   ; 3.534 ; 3.534 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[2] ; CLOCK_50   ; 3.673 ; 3.673 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[3] ; CLOCK_50   ; 3.669 ; 3.669 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[4] ; CLOCK_50   ; 3.668 ; 3.668 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[5] ; CLOCK_50   ; 3.535 ; 3.535 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[6] ; CLOCK_50   ; 3.673 ; 3.673 ; Rise       ; CLOCK_50        ;
+;  LCD_DATA[7] ; CLOCK_50   ; 3.680 ; 3.680 ; Rise       ; CLOCK_50        ;
+; LCD_EN       ; CLOCK_50   ; 3.510 ; 3.510 ; Rise       ; CLOCK_50        ;
+; LCD_RS       ; CLOCK_50   ; 3.536 ; 3.536 ; Rise       ; CLOCK_50        ;
++--------------+------------+-------+-------+------------+-----------------+
+
+
++-------------------------------------------------------------------+
+; Setup Transfers                                                   ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; CLOCK_50   ; CLOCK_50 ; 1612     ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
++-------------------------------------------------------------------+
+; Hold Transfers                                                    ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; CLOCK_50   ; CLOCK_50 ; 1612     ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
++-------------------------------------------------------------------+
+; Recovery Transfers                                                ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; CLOCK_50   ; CLOCK_50 ; 51       ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
++-------------------------------------------------------------------+
+; Removal Transfers                                                 ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; CLOCK_50   ; CLOCK_50 ; 51       ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 0     ; 0    ;
+; Unconstrained Input Port Paths  ; 0     ; 0    ;
+; Unconstrained Output Ports      ; 10    ; 10   ;
+; Unconstrained Output Port Paths ; 10    ; 10   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Mon Mar 10 23:36:25 2014
+Info: Command: quartus_sta lcd -c lcd
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'lcd.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332105): Deriving Clocks
+    Info (332105): create_clock -period 1.000 -name CLOCK_50 CLOCK_50
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow Model
+Critical Warning (332148): Timing requirements not met
+Info (332146): Worst-case setup slack is -2.881
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -2.881      -147.480 CLOCK_50 
+Info (332146): Worst-case hold slack is 0.391
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):     0.391         0.000 CLOCK_50 
+Info (332146): Worst-case recovery slack is -0.667
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -0.667       -23.722 CLOCK_50 
+Info (332146): Worst-case removal slack is 1.051
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):     1.051         0.000 CLOCK_50 
+Info (332146): Worst-case minimum pulse width slack is -1.380
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -1.380       -73.380 CLOCK_50 
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Critical Warning (332148): Timing requirements not met
+Info (332146): Worst-case setup slack is -0.791
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -0.791       -31.373 CLOCK_50 
+Info (332146): Worst-case hold slack is 0.215
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):     0.215         0.000 CLOCK_50 
+Info (332146): Worst-case recovery slack is 0.124
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):     0.124         0.000 CLOCK_50 
+Info (332146): Worst-case removal slack is 0.592
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):     0.592         0.000 CLOCK_50 
+Info (332146): Worst-case minimum pulse width slack is -1.380
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -1.380       -73.380 CLOCK_50 
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 404 megabytes
+    Info: Processing ended: Mon Mar 10 23:36:26 2014
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

@@ -1,0 +1,14 @@
+/*******************************************************************************
+filename    marathon.c
+author      Louis Coyle II
+DP email    louis.coyleii@digipen.edu
+course      CS120
+section     A
+assignment  1
+due date    10/08/2012
+
+Brief Description:
+  A marathon is 26 miles, 385 yards
+  Prints the distance of a marathon in kilometers
+
+*******************************************************************************/

@@ -1,0 +1,13 @@
+/*
+Louis Coyle II
+Email: lhcoyle4@gmail.com
+DigiPen login: louis.coyleii
+Course: ECE399
+Lab: 8 - ram part 6
+Date: 10/21/14
+*/
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.de1_pkg.all;

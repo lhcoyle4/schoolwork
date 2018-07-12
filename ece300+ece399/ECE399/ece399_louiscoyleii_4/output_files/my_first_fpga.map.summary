@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Oct 07 14:47:09 2014
+Quartus II 64-Bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : my_first_fpga
+Top-level Entity Name : my_first_fpga
+Family : Cyclone II
+Total logic elements : 61
+    Total combinational functions : 56
+    Dedicated logic registers : 33
+Total registers : 33
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

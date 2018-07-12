@@ -1,0 +1,43 @@
+- finish the ASCIITable.hex file X
+  - first for all keys that will be drawn to LCD X
+  - then for all keys that have an effect on the state of LCD  x
+  - adding each to the lookup table in this order allows the special function
+    keys to be grouped in a manner that makes sense.
+
+- add a shiftASCIITable.hex file
+  - includes ASCII values for versions of each key when shift is being pressed
+
+- handle shift keystroke in ps2 module X
+  - since the second byte, or more importantly the last byte transmitted for the
+    break code is the same as the make code, shift can simply be a one bit
+    register that gets inverted every time a shift code shows up on PS2_DAT
+  - whenever the shift bit is high, the upshifted version of all characters will
+    be sent to the lcd module, otherwise, the character itself will be sent.
+
+- all other special function keys will be handled in lcd module X
+
+- handle arrow keys in lcd module X
+  - each arrow key will have a specific ASCIIData value.
+  - depending on the arrow that is pressed, determined by reading the ASCIIData
+    value, the cursor will be moved left, right, up a line or down a line.
+
+- handle backspace in the lcd module NO
+  - whereas pressing the back arrow will simply move the cursor back a space
+    pressing backspace deletes the previous character AND moves the cursor back.
+
+- handle delete in the lcd module NO
+  - whereas pressing backspace deletes the previous character and moves the
+    cursor back, pressing delete deletes the current character and does NOT move
+    the cursor.
+
+- turn on the cursor for the lcd module X
+  - this will allow the user to better see the character that they are currently
+    editing
+
+- add a power on reset timer to the ps2 module X
+  - to wait until lcd module is done starting up
+
+- two big hurdles to overcome:
+  - read the current address from the LCD's address counter register
+    OR keep track of address with registers internal to project X
+  - how to control processing of data and setting the writeData flag X

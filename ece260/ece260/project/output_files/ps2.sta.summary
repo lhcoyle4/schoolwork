@@ -1,0 +1,85 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -7.530
+TNS   : -355.381
+
+Type  : Slow Model Setup 'PS2_CLK'
+Slack : -3.075
+TNS   : -51.616
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'PS2_CLK'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'CLOCK_50'
+Slack : -1.023
+TNS   : -47.920
+
+Type  : Slow Model Recovery 'PS2_CLK'
+Slack : 0.660
+TNS   : 0.000
+
+Type  : Slow Model Removal 'PS2_CLK'
+Slack : -0.300
+TNS   : -1.320
+
+Type  : Slow Model Removal 'CLOCK_50'
+Slack : 1.236
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -107.380
+
+Type  : Slow Model Minimum Pulse Width 'PS2_CLK'
+Slack : -1.222
+TNS   : -31.222
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -2.633
+TNS   : -105.309
+
+Type  : Fast Model Setup 'PS2_CLK'
+Slack : -0.942
+TNS   : -10.525
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'PS2_CLK'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'CLOCK_50'
+Slack : -0.054
+TNS   : -0.383
+
+Type  : Fast Model Recovery 'PS2_CLK'
+Slack : 0.638
+TNS   : 0.000
+
+Type  : Fast Model Removal 'PS2_CLK'
+Slack : 0.081
+TNS   : 0.000
+
+Type  : Fast Model Removal 'CLOCK_50'
+Slack : 0.679
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -107.380
+
+Type  : Fast Model Minimum Pulse Width 'PS2_CLK'
+Slack : -1.222
+TNS   : -31.222
+
+------------------------------------------------------------

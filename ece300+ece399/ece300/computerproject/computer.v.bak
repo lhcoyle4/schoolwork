@@ -1,0 +1,3 @@
+module computer (CLOCK_50);
+
+endmodule

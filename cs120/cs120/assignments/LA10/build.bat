@@ -1,0 +1,1 @@
+gcc -Wall -Wextra -ansi -pedantic main.c tablen.c -o tablen

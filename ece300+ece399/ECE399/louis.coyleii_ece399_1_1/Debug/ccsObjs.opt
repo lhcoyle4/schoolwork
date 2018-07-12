@@ -1,0 +1,1 @@
+"./tm4c123gh6pm_startup_ccs.obj" "./louis.coyleii_ece399_1_1.obj" -l"libc.a" "C:/ti/TivaWare_C_Series-2.0.1.11577/driverlib/ccs/Debug/driverlib.lib" "../tm4c123gh6pm.cmd" 

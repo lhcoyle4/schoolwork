@@ -1,0 +1,39 @@
+|computer
+CLOCK_50 => ~NO_FANOUT~
+GPIO_1[0] <= <GND>
+GPIO_1[1] <= <GND>
+GPIO_1[2] <= <GND>
+GPIO_1[3] <= <GND>
+GPIO_1[4] <= <GND>
+GPIO_1[5] <= <GND>
+GPIO_1[6] <= <GND>
+GPIO_1[7] <= <GND>
+GPIO_1[8] <= <GND>
+GPIO_1[9] <= <GND>
+GPIO_1[10] <= <GND>
+GPIO_1[11] <= <GND>
+GPIO_1[12] <= <GND>
+GPIO_1[13] <= <GND>
+GPIO_1[14] <= <GND>
+GPIO_1[15] <= <GND>
+GPIO_1[16] <= <GND>
+
+
+|computer|program_counter:pc_
+
+
+|computer|instruction_decoder:id_
+
+
+|computer|status_register:sr_
+
+
+|computer|alu:alu_
+
+
+|computer|program_terminal:pt_
+
+
+|computer|uart:uart_
+
+

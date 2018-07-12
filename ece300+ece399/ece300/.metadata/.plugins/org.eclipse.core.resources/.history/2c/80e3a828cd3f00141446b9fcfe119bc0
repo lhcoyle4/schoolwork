@@ -1,0 +1,100 @@
+/*************************************************************
+**************************************************************
+    ECE 310L – Fall 2014
+
+    Louis Coyle
+    Project GARI
+
+    Copyright DigiPen (USA) Corporation
+    All Rights Reserved
+**************************************************************
+*************************************************************/
+
+#define TARGET_IS_BLIZZARD_RA1 1
+
+#include <stdint.h>
+#include <stdbool.h>
+#include <math.h>
+#include "inc/tm4c123gh6pm.h"
+#include "inc/hw_types.h"
+#include "inc/hw_memmap.h"
+#include "inc/hw_gpio.h"
+#include "driverlib/sysctl.h"
+#include "driverlib/rom.h"
+#include "driverlib/rom_map.h"
+#include "driverlib/gpio.h"
+#include "driverlib/uart.h"
+#include "driverlib/interrupt.h"
+#include "driverlib/pin_map.h"
+#include "driverlib/adc.h"
+#include "utils/uartstdio.h"
+
+int main(void) {
+	System_Init();
+
+	UART_Init();
+
+    //enable ADC0 peripheral
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_ADC0);
+
+    //enable port for ADC0
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOE);
+
+    //configure the pin as ADC
+    GPIOPinTypeADC(GPIO_PORTE_BASE, GPIO_PIN_3);
+
+    //enable sample sequence 3 with a processor signal trigger
+    ADCSequenceConfigure(ADC0_BASE, 3, ADC_TRIGGER_PROCESSOR, 0);
+
+    //configure channel 0 in single-ended-input mode, enable interrupt flag
+    //configure for a single conversion on sequence 3
+    ADCSequenceStepConfigure(ADC0_BASE, 3, 0, ADC_CTL_CH0 | ADC_CTL_IE | ADC_CTL_END);
+
+    //enable the configured sample sequence
+    ADCSequenceEnable(ADC0_BASE, 3);
+
+    //clear the interrupt flag before beginning sampling
+    ADCIntClear(ADC0_BASE, 3);
+
+    while (1) {
+        // update the buttonstates variables
+        buttonstate1 = GPIOPinRead(GPIO_PORTF_BASE, GPIO_PIN_4);
+        //buttonstate2 = GPIOPinRead(GPIO_PORTF_BASE, GPIO_PIN_0);
+
+        //on button press, use the reading for calibration
+        if (!buttonstate1 && (buttonstate1 != prevbuttonstate1))
+        {
+
+        }
+
+        ADCProcessorTrigger(ADC0_BASE, 3);
+
+        //wait for the conversion to be completed.
+        while (!ADCIntStatus(ADC0_BASE, 3, false)) {
+        } // end while
+
+        //clear the interrupt
+        ADCIntClear(ADC0_BASE, 3);
+
+        //read the value
+        ADCSequenceDataGet(ADC0_BASE, 3, ADC0Value);
+
+        adcdouble = (double)ADC0Value[0];
+
+        //calculate the distance from the ADC code
+        //distance = .00003*(pow(adcdouble, 2)) - 0.1209*adcdouble + 125.55;
+
+        //display the value
+        UARTprintf("%f\n", adcdouble);
+
+        //delay about half a second
+        SysCtlDelay(SysCtlClockGet() / 6);
+
+        //save the most recent buttonstate
+        prevbuttonstate1 = buttonstate1;
+        //prevbuttonstate2 = buttonstate2;
+    } // end while
+
+    return 0;
+} //end main
+

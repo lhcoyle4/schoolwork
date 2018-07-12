@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project gari_rxtouart ****
+
+"D:\\ti\\ccsv5\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"D:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="D:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" -g --diag_warning=225 --display_error_number --diag_wrap=off --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: gari_rxtouart.out'
+'Invoking: ARM Linker'
+"D:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -g --diag_warning=225 --display_error_number --diag_wrap=off -z -m"gari_rxtouart.map" -i"D:/ti/ccsv5/tools/compiler/arm_5.1.1/lib" -i"D:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="gari_rxtouart_linkInfo.xml" --rom_model -o "gari_rxtouart.out"  "./uartstdio.obj" "./uart.obj" "./tm4c123gh6pm_startup_ccs.obj" "./system.obj" "./main.obj" "./adc.obj" "D:/ti/TivaWare_C_Series-2.0.1.11577/driverlib/ccs/Debug/driverlib.lib" "../tm4c123gh6pm.cmd" -l"libc.a" 
+<Linking>
+warning #10210-D: creating ".stack" section with default size of 0x800; use the -stack option to change the default size
+'Finished building target: gari_rxtouart.out'
+' '
+
+**** Build Finished ****

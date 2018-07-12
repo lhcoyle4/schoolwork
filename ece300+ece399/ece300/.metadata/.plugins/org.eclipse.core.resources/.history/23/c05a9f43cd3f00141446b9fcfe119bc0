@@ -1,0 +1,13 @@
+/*
+ * uart.h
+ *
+ *  Created on: Sep 19, 2014
+ *      Author: Louie
+ */
+
+#ifndef UART_H_
+#define UART_H_
+
+void UART_Init(void);
+
+#endif /* UART_H_ */

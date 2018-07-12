@@ -1,0 +1,1227 @@
+!SESSION 2014-09-30 00:26:07.722 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+This is a continuation of log file G:\Dropbox\Private\School\Y2\S14\ECE300\.metadata\.bak_0.log
+Created Time: 2014-09-30 04:13:34.692
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.692
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.693
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.695
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.697
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.699
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.700
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.702
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.704
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.706
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.707
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.775
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.789
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.791
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.793
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.794
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.796
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.798
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.799
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.801
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.802
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:13:34.804
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:29:31.521
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:29:31.536
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:29:31.537
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:29:31.539
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:29:31.541
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:29:31.542
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:29:31.544
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:29:31.545
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:29:31.547
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:29:31.549
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:29:31.550
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:26.064
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:26.079
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:26.081
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:26.082
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:26.084
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:26.086
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:26.088
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:26.089
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:26.091
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:26.093
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:26.095
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.826
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.842
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.844
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.846
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.847
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.849
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.851
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.853
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.854
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.856
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.858
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.866
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.881
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.882
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.884
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.886
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.888
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.889
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.891
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.892
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.894
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:36:54.896
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.439
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.454
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.455
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.457
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.459
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.461
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.462
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.464
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.466
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.467
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.469
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.507
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.521
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.523
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.525
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.527
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.528
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.530
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.532
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.534
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.536
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.537
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.575
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.589
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.591
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.593
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.594
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.596
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.598
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.599
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.601
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.602
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:22.604
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.556
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.571
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.573
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.574
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.576
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.578
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.580
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.581
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.583
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.585
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.586
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.628
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.643
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.645
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.647
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.648
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.650
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.652
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.653
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.655
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.657
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:37:54.658
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.335
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.351
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.353
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.354
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.356
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.358
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.360
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.361
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.363
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.365
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.366
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.375
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.389
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.391
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.393
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.395
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.396
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.398
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.400
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.401
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.403
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:19.404
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:52.888
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:52.903
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:52.905
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:52.907
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:52.909
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:52.911
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:52.912
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:52.914
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:52.916
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:52.918
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:52.919
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:52.925
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:52.990
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xca497bf3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:53.007
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:53.009
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:53.011
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:53.013
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:53.014
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:53.016
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:53.017
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:53.019
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:53.021
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:38:53.022
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.534
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eab on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.535
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eac on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.537
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914ead on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.539
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eae on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.540
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eaf on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.542
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb0 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.544
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb1 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.545
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb2 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.547
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.549
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb4 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.688
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eab on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.690
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eac on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.692
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914ead on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.693
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eae on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.695
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eaf on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.697
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb0 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.698
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb1 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.700
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb2 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.701
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.703
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb4 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:40:49.709
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eab on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.197
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d9d on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.199
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eab on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.202
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eac on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.204
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914ead on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.206
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eae on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.207
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eaf on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.209
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb0 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.211
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb1 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.213
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb2 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.215
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.216
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb4 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.232
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.234
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.236
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.237
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.239
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.241
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.243
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.244
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.246
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.248
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.275
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eab on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.276
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eac on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.278
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914ead on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.280
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eae on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.282
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eaf on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.284
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb0 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.286
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb1 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.287
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb2 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.289
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.291
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb4 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.294
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d9d on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.343
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d9d on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.358
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.359
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.361
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.363
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.365
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.366
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.368
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.370
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.371
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:41:55.373
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:25.184
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0x600fe866 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.159
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d9d on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.174
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.176
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.178
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.179
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.181
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.183
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.184
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.186
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.188
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.189
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.217
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eab on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.219
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eac on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.222
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914ead on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.224
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eae on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.226
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eaf on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.228
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb0 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.230
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb1 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.232
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb2 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.234
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb3 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.236
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xa6914eb4 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.238
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d9d on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.259
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d9d on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.273
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.275
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.277
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.278
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.280
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.282
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.283
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.285
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.287
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:42:53.288
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:46:39.920
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d9d on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:46:39.934
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d60 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:46:39.936
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d61 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:46:39.938
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d62 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:46:39.939
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d63 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:46:39.941
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d64 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:46:39.942
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d65 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:46:39.944
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d66 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:46:39.946
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d67 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:46:39.947
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d68 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 04:46:39.949
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xb8574d69 on Page 0 of Length 0x1: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 09:53:45.832
+!MESSAGE DS_ERROR: CORTEX_M4_0: Error: Connection with the target was unexpectedly lost.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-09-30 09:53:45.929
+!MESSAGE DS_ERROR: CORTEX_M4_0: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+!SESSION 2014-11-28 19:21:05.420 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2014-11-28 19:21:11.509
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-11-28 19:21:11.509
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-11-28 19:21:11.509
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-11-28 19:21:11.510
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-11-28 19:21:11.510
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-11-28 19:21:11.510
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-11-28 19:21:11.510
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-11-28 19:21:11.510
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-11-28 19:21:11.510
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-11-28 19:23:13.757
+!MESSAGE Indexed 'ece399_louis.coyleii_6' (4 sources, 1 headers) in 0.20 sec: 68 declarations; 200 references; 3 unresolved inclusions; 0 syntax errors; 2 unresolved names (0.74%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-11-28 19:23:14.501
+!MESSAGE Indexed 'ece399_louis.coyleii_6' (4 sources, 5 headers) in 0.15 sec: 224 declarations; 330 references; 0 unresolved inclusions; 0 syntax errors; 2 unresolved names (0.36%)
+!SESSION 2014-12-02 03:19:01.834 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2014-12-02 03:19:03.387
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-02 03:19:03.387
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-02 03:19:03.387
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-02 03:19:03.387
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-02 03:19:03.387
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-02 03:19:03.387
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-02 03:19:03.387
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-02 03:19:03.387
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-02 03:19:03.387
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-12-02 03:19:17.481
+!MESSAGE DS_ERROR: CORTEX_M4_0: Error connecting to the target: Frequency is out of range.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2014-12-02 03:19:17.549
+!MESSAGE DS_ERROR: Error connecting to the target:
+Frequency is out of range.
+!SESSION 2014-12-03 21:39:53.903 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2014-12-03 21:39:55.511
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-03 21:39:55.511
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-03 21:39:55.511
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-03 21:39:55.511
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-03 21:39:55.511
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-03 21:39:55.511
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-03 21:39:55.511
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-03 21:39:55.511
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-12-03 21:39:55.511
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY java.util.HashMap$HashIterator 4 4 2014-12-03 21:40:03.949
+!MESSAGE Error during DVT action: null.
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextEntry(Unknown Source)
+	at java.util.HashMap$ValueIterator.next(Unknown Source)
+	at org.eclipse.cdt.internal.core.model.CModelManager.mergeDeltas(CModelManager.java:1167)
+	at org.eclipse.cdt.internal.core.model.CModelManager.fireReconcileDelta(CModelManager.java:1091)
+	at org.eclipse.cdt.internal.core.model.CModelManager.fire(CModelManager.java:1052)
+	at org.eclipse.cdt.internal.core.model.CModelManager.fire(CModelManager.java:1008)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:615)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:367)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:92)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.initialReconcile(CReconcilingStrategy.java:137)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.initialReconcile(CompositeReconcilingStrategy.java:117)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.initialReconcile(CCompositeReconcilingStrategy.java:108)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:105)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.initialProcess(CReconciler.java:347)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:173)

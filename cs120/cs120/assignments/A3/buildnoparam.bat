@@ -1,0 +1,1 @@
+gcc -O -Wno-unused-parameter -Werror -Wall -Wextra -ansi -pedantic main.c array.c -o arrays.exe

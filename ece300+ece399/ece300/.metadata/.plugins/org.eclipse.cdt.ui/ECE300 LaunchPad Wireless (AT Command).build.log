@@ -1,0 +1,58 @@
+
+**** Build of configuration Debug for project ECE300 LaunchPad Wireless (AT Command) ****
+
+"D:\\ti\\ccsv5\\utils\\bin\\gmake" -k all 
+'Building file: ../Clocks.c'
+'Invoking: ARM Compiler'
+"D:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="D:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" -g --define=DEBUG --define=PART_TM4C123GH6PM --define=TARGET_IS_BLIZZARD_RB1 --diag_warning=225 --display_error_number --diag_wrap=off --preproc_with_compile --preproc_dependency="Clocks.pp"  "../Clocks.c"
+'Finished building: ../Clocks.c'
+' '
+'Building file: ../GPIO_Pin.c'
+'Invoking: ARM Compiler'
+"D:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="D:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" -g --define=DEBUG --define=PART_TM4C123GH6PM --define=TARGET_IS_BLIZZARD_RB1 --diag_warning=225 --display_error_number --diag_wrap=off --preproc_with_compile --preproc_dependency="GPIO_Pin.pp"  "../GPIO_Pin.c"
+'Finished building: ../GPIO_Pin.c'
+' '
+'Building file: ../PC_CMD.c'
+'Invoking: ARM Compiler'
+"D:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="D:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" -g --define=DEBUG --define=PART_TM4C123GH6PM --define=TARGET_IS_BLIZZARD_RB1 --diag_warning=225 --display_error_number --diag_wrap=off --preproc_with_compile --preproc_dependency="PC_CMD.pp"  "../PC_CMD.c"
+'Finished building: ../PC_CMD.c'
+' '
+'Building file: ../Parse.c'
+'Invoking: ARM Compiler'
+"D:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="D:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" -g --define=DEBUG --define=PART_TM4C123GH6PM --define=TARGET_IS_BLIZZARD_RB1 --diag_warning=225 --display_error_number --diag_wrap=off --preproc_with_compile --preproc_dependency="Parse.pp"  "../Parse.c"
+'Finished building: ../Parse.c'
+' '
+'Building file: ../Timer.c'
+'Invoking: ARM Compiler'
+"D:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="D:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" -g --define=DEBUG --define=PART_TM4C123GH6PM --define=TARGET_IS_BLIZZARD_RB1 --diag_warning=225 --display_error_number --diag_wrap=off --preproc_with_compile --preproc_dependency="Timer.pp"  "../Timer.c"
+"../Timer.c", line 4: warning #179-D: variable "TimerInitialized" was declared but never referenced
+'Finished building: ../Timer.c'
+' '
+'Building file: ../UART.c'
+'Invoking: ARM Compiler'
+"D:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="D:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" -g --define=DEBUG --define=PART_TM4C123GH6PM --define=TARGET_IS_BLIZZARD_RB1 --diag_warning=225 --display_error_number --diag_wrap=off --preproc_with_compile --preproc_dependency="UART.pp"  "../UART.c"
+'Finished building: ../UART.c'
+' '
+'Building file: ../WirelessXBee.c'
+'Invoking: ARM Compiler'
+"D:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="D:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" -g --define=DEBUG --define=PART_TM4C123GH6PM --define=TARGET_IS_BLIZZARD_RB1 --diag_warning=225 --display_error_number --diag_wrap=off --preproc_with_compile --preproc_dependency="WirelessXBee.pp"  "../WirelessXBee.c"
+'Finished building: ../WirelessXBee.c'
+' '
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"D:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="D:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" -g --define=DEBUG --define=PART_TM4C123GH6PM --define=TARGET_IS_BLIZZARD_RB1 --diag_warning=225 --display_error_number --diag_wrap=off --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../tm4c123gh6pm_startup_ccs.c'
+'Invoking: ARM Compiler'
+"D:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="D:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" -g --define=DEBUG --define=PART_TM4C123GH6PM --define=TARGET_IS_BLIZZARD_RB1 --diag_warning=225 --display_error_number --diag_wrap=off --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.pp"  "../tm4c123gh6pm_startup_ccs.c"
+'Finished building: ../tm4c123gh6pm_startup_ccs.c'
+' '
+'Building target: ECE300 LaunchPad Wireless (AT Command).out'
+'Invoking: ARM Linker'
+"D:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -g --define=DEBUG --define=PART_TM4C123GH6PM --define=TARGET_IS_BLIZZARD_RB1 --diag_warning=225 --display_error_number --diag_wrap=off -z -m"ECE300 LaunchPad Wireless (AT Command).map" --heap_size=2048 --stack_size=5632 -i"D:/ti/ccsv5/tools/compiler/arm_5.1.1/lib" -i"D:/ti/TivaWare_C_Series-2.0.1.11577" -i"D:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="ECE300 LaunchPad Wireless (AT Command)_linkInfo.xml" --rom_model -o "ECE300 LaunchPad Wireless (AT Command).out"  "./tm4c123gh6pm_startup_ccs.obj" "./main.obj" "./WirelessXBee.obj" "./UART.obj" "./Timer.obj" "./Parse.obj" "./PC_CMD.obj" "./GPIO_Pin.obj" "./Clocks.obj" "D:/ti/TivaWare_C_Series-2.0.1.11577/driverlib/ccs/Debug/driverlib.lib" "../tm4c123gh6pm.cmd" -l"libc.a" -l"D:\ti\TivaWare_C_Series-2.0.1.11577\usblib\ccs\Debug\usblib.lib" -l"D:\ti\TivaWare_C_Series-2.0.1.11577\driverlib\ccs\Debug\driverlib.lib" 
+<Linking>
+'Finished building target: ECE300 LaunchPad Wireless (AT Command).out'
+' '
+
+**** Build Finished ****

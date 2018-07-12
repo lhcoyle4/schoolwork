@@ -1,0 +1,1 @@
+gcc -Wno-overlength-strings -O -Wall -Wextra -ansi -pedantic -Wno-unused-parameter main.c histogram.c -o histogram

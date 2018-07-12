@@ -1,0 +1,1 @@
+gcc -O -Werror -Wall -Wextra -ansi -pedantic main.c jumble.c -o jumble.exe

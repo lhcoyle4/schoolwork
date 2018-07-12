@@ -1,0 +1,51 @@
+/*
+Louis Coyle II
+Email: lhcoyle4@gmail.com
+DigiPen login: louis.coyleii
+Course: ECE399
+Lab: 5 - alu
+Date: 10/09/14
+*/
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.de1_pkg.all;
+
+entity alu is
+	port (SW : in unsigned(9 downto 0);
+			KEY : in std_logic_vector(0 downto 0);
+			HEX0 : out unsigned(6 downto 0);
+			HEX1 : out unsigned(6 downto 0);
+			HEX2 : out unsigned(6 downto 0);
+			HEX3 : out unsigned(6 downto 0));
+end alu;
+
+architecture behavior of alu is
+
+  function inst_decoder (instruction: unsigned(1 downto 0); 
+					 data: unsigned(7 downto 0);
+					 wreg: unsigned(7 downto 0))
+					 return unsigned is
+	begin
+		case instruction is
+			WHEN "00" => return wreg + data;
+			WHEN "01" => return wreg - data;
+			WHEN "10" => return wreg and data;
+			WHEN "11" => return wreg xor data;
+		end case;
+	end inst_decoder;
+	
+begin
+	process (KEY)
+	variable wreg : unsigned(7 downto 0);
+	begin
+		HEX0 <= hex(SW(3 downto 0));
+		HEX1 <= hex(SW(7 downto 4));
+		HEX2 <= hex(wreg(3 downto 0));
+		HEX3 <= hex(wreg(7 downto 4));
+		if (falling_edge(KEY(0))) then
+			wreg := inst_decoder(SW(9 downto 8), SW(7 downto 0), wreg);
+		end if;
+	end process;
+end behavior;

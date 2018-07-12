@@ -1,0 +1,69 @@
+/*
+Louis Coyle II
+Email: lhcoyle4@gmail.com
+DigiPen login: louis.coyleii
+Course: ECE399
+Assignment: 6 - strcpy in 16-bit ARM
+Date: 11/25/14
+*/
+
+/* driver file from blockmove assignment */
+#include <stdlib.h>
+#include <assert.h>
+
+extern void strcpy_arm16(void *source, void *dest);
+
+#define MEM_SIZE 8192
+static char memory[MEM_SIZE];
+
+static void wipe(char *memory)
+{
+    int i;
+    for(i = 0; i < MEM_SIZE; i++) {
+        memory[i] = i & 0xFF;
+    }
+}
+
+static void verify(char *source, char *dest, int n)
+{
+    int i, t;
+    for(i = 0; i < n; i++) {
+        t = (((int) source) + i) & 0xFF;
+        assert(dest[i] == t);
+    }
+    t = (((int) dest)-1) & 0xFF;
+    assert(dest[-1] == t);
+    t = (((int) dest)+n) & 0xFF;
+    // check that the null terminator is there too
+    assert(dest[n] == '0');
+}
+
+static void test_copy(char *source, char *dest, int n)
+{
+  strcpy_arm16(source, dest);
+  verify(source, dest, n);
+}
+
+int main(void)
+{
+    int i, n, end;
+    char *source, *dest;
+
+    for(i = 0; i < 1000; i++) {
+        /* fill the memory with a known pattern */
+        wipe(memory);
+
+        /* randomly generated parameters */
+        n = 1 + (rand() & 1023);
+
+        source = memory + rand() % (MEM_SIZE-(2*n + 20)); //source must be at least 2 times its length + a buffer away from end of memory
+        dest = source + n + 10; 						  //so that it can be copied right after in memory
+
+        end = (int)source + n;
+        // write null terminator to end of "string" to be copied
+        memory[end]  = 0;
+
+        test_copy(source, dest, n);
+    }
+    return 0;
+}

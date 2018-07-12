@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a5c1e62a50a2c66c493a24c2b24062974"><param name="Name" value="acquire_board"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a6aacc5d539dcfb05481caba93c5a2902"><param name="Name" value="backtracking"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_sudoku_1_1_sudoku_stats.html#ab4d1c849bd236299067b56cfedd54b91"><param name="Name" value="backtracks"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a354b65c4bd8692443aeac15742a35025"><param name="Name" value="BASESIZE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_sudoku_1_1_sudoku_stats.html#a3cf58dc66b8828726c8b17513c81af9f"><param name="Name" value="basesize"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ac264e8854e033f029d5bf2efbd241fbd"><param name="Name" value="blanks"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ad0da487ea4e37eed6119d9530a2808fb"><param name="Name" value="board"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a39115486a6ade3ab4850732a1a474748"><param name="Name" value="boardlength"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a513d7912068e1edc7e40bd6309eea9fe"><param name="Name" value="boardmaxpos"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a752129cc60770bf88352e694a51fecc3"><param name="Name" value="Callback"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a8a11cd382d8c2e06f66e72d028e978fd"><param name="Name" value="callback"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#adf389808fead10702c9806b937ff3075"><param name="Name" value="CALLBACK"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_row_col.html#a35a07844860ff7a34e92222f337a53a3"><param name="Name" value="col"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a383d2b6f63f8288e8ef48a30cc82693e"><param name="Name" value="DisplayDuplicates"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html"><param name="Name" value="driver-sample.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a5c1e62a50a2c66c493a24c2b24062974"><param name="Name" value="acquire_board"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a354b65c4bd8692443aeac15742a35025"><param name="Name" value="BASESIZE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a752129cc60770bf88352e694a51fecc3"><param name="Name" value="Callback"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a383d2b6f63f8288e8ef48a30cc82693e"><param name="Name" value="DisplayDuplicates"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a04b71e4ae2f6dea084836d4464fdcadf"><param name="Name" value="dump_options"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a5b1cba8266629c743e18e181b9f258b2"><param name="Name" value="DumpBoard"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a89126b3ddf9f95fb57de753106f76b5c"><param name="Name" value="ExecuteTest"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a8bcda1d0722a0823802a67a7acd89b6b"><param name="Name" value="gBoard"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a62fc7333630d480549efd2ed2c515046"><param name="Name" value="gFile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a6b160c4f6a2bcf60302086c8be6e2d83"><param name="Name" value="index_to_col"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a266a1e52010a1d9ad5bec1cc33ec7873"><param name="Name" value="index_to_row"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a99e1f2c058bae462c516bc2824a93075"><param name="Name" value="IndexToRowCol"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627"><param name="Name" value="main"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#ac30293de1307a8562a73541e7e758e2f"><param name="Name" value="MAX_BOARD_SIZE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#ae24d4b7fe84e05687b4c390ed8096b8a"><param name="Name" value="parse_commandline"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a6bebf1c4eb155d8589c89d709d457a5d"><param name="Name" value="Pause"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#acf874bb4ee459fc284d6df0282e61bcf"><param name="Name" value="PrintStats"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a4a2eff499a3c811ef4d814024ba98ef0"><param name="Name" value="RunTest"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a39a343cadd5d7f1b63f2e29aa384c62d"><param name="Name" value="stripnl"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a377a4ffc8c2ea46e1cfb35539638d709"><param name="Name" value="SYMBOL_TYPE"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#ae83e73a8326f345cf51c3b45f52100ed"><param name="Name" value="TestFn"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#ae8605e2b78cd4a81b6c6b5c30cb7366a"><param name="Name" value="usage"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a04b71e4ae2f6dea084836d4464fdcadf"><param name="Name" value="dump_options"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a5b1cba8266629c743e18e181b9f258b2"><param name="Name" value="DumpBoard"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a206d60df13941caa41ece44c92b8200e"><param name="Name" value="dupe_in_col"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a21e64d9bf885a1cc2fd8ac1329635ea7"><param name="Name" value="dupe_in_row"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a6f785e3cd86338df8d87064b08db7f0a"><param name="Name" value="dupe_in_sqr"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a05d561caa174711d4c9fad7e846883cc"><param name="Name" value="dupes"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a7cf4fffe9ae2b1f6da3ec3f7e2e243ba"><param name="Name" value="EMPTY_CHAR"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a89126b3ddf9f95fb57de753106f76b5c"><param name="Name" value="ExecuteTest"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a82702f574720ab3505aaaaef37a426ab"><param name="Name" value="find_sqr_start"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a8d317553a52c883eb582579570266dc2"><param name="Name" value="firstelement"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a8bcda1d0722a0823802a67a7acd89b6b"><param name="Name" value="gBoard"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a898d752757dfa7617ae7e44f839032aa"><param name="Name" value="GetBoard"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ab4cb2465e3fdd17a87f815ee67def231"><param name="Name" value="GetStats"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a62fc7333630d480549efd2ed2c515046"><param name="Name" value="gFile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a6b160c4f6a2bcf60302086c8be6e2d83"><param name="Name" value="index_to_col"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a6b160c4f6a2bcf60302086c8be6e2d83"><param name="Name" value="driver-sample.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a9fd33be248dcb91605e2f75fea226088"><param name="Name" value="Sudoku"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a266a1e52010a1d9ad5bec1cc33ec7873"><param name="Name" value="index_to_row"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a266a1e52010a1d9ad5bec1cc33ec7873"><param name="Name" value="driver-sample.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a968313ddaebbe5913e4d8efae1e69ed9"><param name="Name" value="Sudoku"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a99e1f2c058bae462c516bc2824a93075"><param name="Name" value="IndexToRowCol"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ae7f66327c9bed96fa56d7ff958cb7037"><param name="Name" value="info"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#abd5f1291fd50f67caf4de766f3f1a9b7"><param name="Name" value="insert_into_board"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a2afcc41779a18613754ba351f1c56e18"><param name="Name" value="is_final_position"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a440cab3b177fe1dc8707c596f9523ec0"><param name="Name" value="is_in_conflict"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a00315e439dffb68cf19738f9e4181130"><param name="Name" value="lastelement"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627"><param name="Name" value="main"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#ac30293de1307a8562a73541e7e758e2f"><param name="Name" value="MAX_BOARD_SIZE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_sudoku_1_1_sudoku_stats.html#a78f3038bfdc0fde05762248fa0c2eb3c"><param name="Name" value="moves"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a56500aa120c96168ae988345e28eb0d2"><param name="Name" value="moves_"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#aefec02cf42686a826d35086979afba62a08f974c0ae3d1daa11ed5428baba3036"><param name="Name" value="MSG_ABORT_CHECK"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#aefec02cf42686a826d35086979afba62a0301e783bba4b18644155878a22d7aca"><param name="Name" value="MSG_FINISHED_FAIL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#aefec02cf42686a826d35086979afba62ae4403c04adb00beae8567aa5c7b40b4f"><param name="Name" value="MSG_FINISHED_OK"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#aefec02cf42686a826d35086979afba62a6988a6b92b8bcb0f7544b369a838a7b5"><param name="Name" value="MSG_PLACING"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#aefec02cf42686a826d35086979afba62a0b4aa275c075df0fd80092f695031688"><param name="Name" value="MSG_REMOVING"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#aefec02cf42686a826d35086979afba62aa517cc8b3a8608bde2643e9d1a501261"><param name="Name" value="MSG_STARTING"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#ae24d4b7fe84e05687b4c390ed8096b8a"><param name="Name" value="parse_commandline"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a6bebf1c4eb155d8589c89d709d457a5d"><param name="Name" value="Pause"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ab4d0b0b8830aa1239b3fd0ec8be3a9e6"><param name="Name" value="place_value"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_sudoku_1_1_sudoku_stats.html#a9ffb8929860b2e70bb7389cb82e1fe75"><param name="Name" value="placed"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#acf874bb4ee459fc284d6df0282e61bcf"><param name="Name" value="PrintStats"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_row_col.html#af843a3b81abae4588a8dc70e95b36ab9"><param name="Name" value="row"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a7ac83e6a146d79bda41e3fc50f22dd5f"><param name="Name" value="row_col_to_index"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_row_col.html"><param name="Name" value="RowCol"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_row_col.html#a35a07844860ff7a34e92222f337a53a3"><param name="Name" value="col"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_row_col.html#af843a3b81abae4588a8dc70e95b36ab9"><param name="Name" value="row"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a4a2eff499a3c811ef4d814024ba98ef0"><param name="Name" value="RunTest"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#aeb8c521f92f73bbe277d2f6b2c40522b"><param name="Name" value="SetupBoard"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a0a46370670ce20e8d56a77b38abddc96"><param name="Name" value="Solve"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ab0d8b82cc03cebf1c0887bd1fb6004ba"><param name="Name" value="solved"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a4e3db7bee575395d9336b78963b8d426"><param name="Name" value="stats"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a39a343cadd5d7f1b63f2e29aa384c62d"><param name="Name" value="stripnl"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html"><param name="Name" value="Sudoku"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_sudoku_1_1_sudoku_stats.html"><param name="Name" value="Sudoku::SudokuStats"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_sudoku_1_1_sudoku_stats.html#ab4d1c849bd236299067b56cfedd54b91"><param name="Name" value="backtracks"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_sudoku_1_1_sudoku_stats.html#a3cf58dc66b8828726c8b17513c81af9f"><param name="Name" value="basesize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_sudoku_1_1_sudoku_stats.html#a78f3038bfdc0fde05762248fa0c2eb3c"><param name="Name" value="moves"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_sudoku_1_1_sudoku_stats.html#a9ffb8929860b2e70bb7389cb82e1fe75"><param name="Name" value="placed"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_sudoku_1_1_sudoku_stats.html#aefba4fda289b2ab1987d3bc4ab54919d"><param name="Name" value="SudokuStats"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html"><param name="Name" value="Sudoku"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a6aacc5d539dcfb05481caba93c5a2902"><param name="Name" value="backtracking"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ac264e8854e033f029d5bf2efbd241fbd"><param name="Name" value="blanks"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ad0da487ea4e37eed6119d9530a2808fb"><param name="Name" value="board"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a39115486a6ade3ab4850732a1a474748"><param name="Name" value="boardlength"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a513d7912068e1edc7e40bd6309eea9fe"><param name="Name" value="boardmaxpos"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a8a11cd382d8c2e06f66e72d028e978fd"><param name="Name" value="callback"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#adf389808fead10702c9806b937ff3075"><param name="Name" value="CALLBACK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a206d60df13941caa41ece44c92b8200e"><param name="Name" value="dupe_in_col"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a21e64d9bf885a1cc2fd8ac1329635ea7"><param name="Name" value="dupe_in_row"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a6f785e3cd86338df8d87064b08db7f0a"><param name="Name" value="dupe_in_sqr"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a05d561caa174711d4c9fad7e846883cc"><param name="Name" value="dupes"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a7cf4fffe9ae2b1f6da3ec3f7e2e243ba"><param name="Name" value="EMPTY_CHAR"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a82702f574720ab3505aaaaef37a426ab"><param name="Name" value="find_sqr_start"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a8d317553a52c883eb582579570266dc2"><param name="Name" value="firstelement"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a898d752757dfa7617ae7e44f839032aa"><param name="Name" value="GetBoard"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ab4cb2465e3fdd17a87f815ee67def231"><param name="Name" value="GetStats"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a9fd33be248dcb91605e2f75fea226088"><param name="Name" value="index_to_col"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a968313ddaebbe5913e4d8efae1e69ed9"><param name="Name" value="index_to_row"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ae7f66327c9bed96fa56d7ff958cb7037"><param name="Name" value="info"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#abd5f1291fd50f67caf4de766f3f1a9b7"><param name="Name" value="insert_into_board"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a2afcc41779a18613754ba351f1c56e18"><param name="Name" value="is_final_position"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a440cab3b177fe1dc8707c596f9523ec0"><param name="Name" value="is_in_conflict"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a00315e439dffb68cf19738f9e4181130"><param name="Name" value="lastelement"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a56500aa120c96168ae988345e28eb0d2"><param name="Name" value="moves_"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#aefec02cf42686a826d35086979afba62a08f974c0ae3d1daa11ed5428baba3036"><param name="Name" value="MSG_ABORT_CHECK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#aefec02cf42686a826d35086979afba62a0301e783bba4b18644155878a22d7aca"><param name="Name" value="MSG_FINISHED_FAIL"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#aefec02cf42686a826d35086979afba62ae4403c04adb00beae8567aa5c7b40b4f"><param name="Name" value="MSG_FINISHED_OK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#aefec02cf42686a826d35086979afba62a6988a6b92b8bcb0f7544b369a838a7b5"><param name="Name" value="MSG_PLACING"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#aefec02cf42686a826d35086979afba62a0b4aa275c075df0fd80092f695031688"><param name="Name" value="MSG_REMOVING"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#aefec02cf42686a826d35086979afba62aa517cc8b3a8608bde2643e9d1a501261"><param name="Name" value="MSG_STARTING"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ab4d0b0b8830aa1239b3fd0ec8be3a9e6"><param name="Name" value="place_value"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a7ac83e6a146d79bda41e3fc50f22dd5f"><param name="Name" value="row_col_to_index"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#aeb8c521f92f73bbe277d2f6b2c40522b"><param name="Name" value="SetupBoard"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a0a46370670ce20e8d56a77b38abddc96"><param name="Name" value="Solve"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ab0d8b82cc03cebf1c0887bd1fb6004ba"><param name="Name" value="solved"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a4e3db7bee575395d9336b78963b8d426"><param name="Name" value="stats"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a3e44afdd5799061b976bd643e3186ca4"><param name="Name" value="Sudoku"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ab9d5a4c123c93f3afb066e5f83149c57"><param name="Name" value="SUDOKU_CALLBACK"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ae58a74aa553563f6db22b82329631838a452b62bdc779e15d21d41878206193aa"><param name="Name" value="SYM_LETTER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ae58a74aa553563f6db22b82329631838a11c5dde24a326e1d30b3f608d07ff878"><param name="Name" value="SYM_NUMBER"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a1beaf96352deeaeb7a457085b71bbf03"><param name="Name" value="symtype"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a40b3b41ac646e39fc329d1d2d37c91b4"><param name="Name" value="update_duplicates"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a9c949b824fa3d98d3515dbecb8cf413e"><param name="Name" value="~Sudoku"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ab9d5a4c123c93f3afb066e5f83149c57"><param name="Name" value="SUDOKU_CALLBACK"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_sudoku_1_1_sudoku_stats.html#aefba4fda289b2ab1987d3bc4ab54919d"><param name="Name" value="SudokuStats"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ae58a74aa553563f6db22b82329631838a452b62bdc779e15d21d41878206193aa"><param name="Name" value="SYM_LETTER"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#ae58a74aa553563f6db22b82329631838a11c5dde24a326e1d30b3f608d07ff878"><param name="Name" value="SYM_NUMBER"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#a377a4ffc8c2ea46e1cfb35539638d709"><param name="Name" value="SYMBOL_TYPE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a1beaf96352deeaeb7a457085b71bbf03"><param name="Name" value="symtype"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#ae83e73a8326f345cf51c3b45f52100ed"><param name="Name" value="TestFn"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a40b3b41ac646e39fc329d1d2d37c91b4"><param name="Name" value="update_duplicates"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="driver-sample_8cpp.html#ae8605e2b78cd4a81b6c6b5c30cb7366a"><param name="Name" value="usage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_sudoku.html#a9c949b824fa3d98d3515dbecb8cf413e"><param name="Name" value="~Sudoku"></OBJECT>
+</UL>
+</BODY>
+</HTML>

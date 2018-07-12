@@ -1,0 +1,1 @@
+module ps2(CLOCK_50, PS2_CLK, PS2_DAT, GPIO_1)

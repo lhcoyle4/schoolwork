@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ece399_louis.coyleii_2_div/div.asm&apos; to &apos;ece399_louis.coyleii_2_div.asm&apos;" description="Rename resource &apos;div.asm&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="div.asm" name="ece399_louis.coyleii_2_div.asm" stamp="1411340765966" updateReferences="true"/>
+</session>

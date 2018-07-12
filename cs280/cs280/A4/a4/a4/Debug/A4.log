@@ -1,0 +1,203 @@
+﻿Build started 10/21/2014 11:41:19 PM.
+     1>Project "G:\Dropbox\Private\School\Y3\F14\CS280\A4\A4\A4\A4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\driver-sample.cpp"
+         driver-sample.cpp
+     1>g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(102): warning C4520: 'BSTree<T>' : multiple default constructors specified
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\avltree.h(26) : see reference to class template instantiation 'BSTree<T>' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(643) : see reference to class template instantiation 'AVLTree<int>' being compiled
+     1>g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(193): error C2668: 'BSTree<T>::BSTree' : ambiguous call to overloaded function
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(68): could be 'BSTree<T>::BSTree(ObjectAllocator *,bool)'
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(67): or       'BSTree<T>::BSTree(void)'
+                 with
+                 [
+                     T=int
+                 ]
+                 while trying to match the argument list '()'
+                 g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(890) : see reference to function template instantiation 'void Test1<BSTree<T>>(void)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(245): error C2668: 'BSTree<T>::BSTree' : ambiguous call to overloaded function
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(68): could be 'BSTree<T>::BSTree(ObjectAllocator *,bool)'
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(67): or       'BSTree<T>::BSTree(void)'
+                 with
+                 [
+                     T=int
+                 ]
+                 while trying to match the argument list '()'
+                 g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(890) : see reference to function template instantiation 'void Test2<BSTree<T>>(void)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(282): error C2668: 'BSTree<T>::BSTree' : ambiguous call to overloaded function
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(68): could be 'BSTree<T>::BSTree(ObjectAllocator *,bool)'
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(67): or       'BSTree<T>::BSTree(void)'
+                 with
+                 [
+                     T=int
+                 ]
+                 while trying to match the argument list '()'
+                 g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(890) : see reference to function template instantiation 'void Test3<BSTree<T>>(void)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(344): error C2668: 'BSTree<T>::BSTree' : ambiguous call to overloaded function
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(68): could be 'BSTree<T>::BSTree(ObjectAllocator *,bool)'
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(67): or       'BSTree<T>::BSTree(void)'
+                 with
+                 [
+                     T=int
+                 ]
+                 while trying to match the argument list '()'
+                 g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(890) : see reference to function template instantiation 'void Test4<BSTree<T>>(void)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(389): error C2668: 'BSTree<T>::BSTree' : ambiguous call to overloaded function
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(68): could be 'BSTree<T>::BSTree(ObjectAllocator *,bool)'
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(67): or       'BSTree<T>::BSTree(void)'
+                 with
+                 [
+                     T=int
+                 ]
+                 while trying to match the argument list '()'
+                 g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(890) : see reference to function template instantiation 'void Test5<BSTree<T>>(void)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(432): error C2668: 'BSTree<T>::BSTree' : ambiguous call to overloaded function
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(68): could be 'BSTree<T>::BSTree(ObjectAllocator *,bool)'
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(67): or       'BSTree<T>::BSTree(void)'
+                 with
+                 [
+                     T=int
+                 ]
+                 while trying to match the argument list '()'
+                 g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(890) : see reference to function template instantiation 'void Test6<BSTree<T>>(void)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(500): error C2668: 'BSTree<T>::BSTree' : ambiguous call to overloaded function
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(68): could be 'BSTree<T>::BSTree(ObjectAllocator *,bool)'
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(67): or       'BSTree<T>::BSTree(void)'
+                 with
+                 [
+                     T=int
+                 ]
+                 while trying to match the argument list '()'
+                 g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(890) : see reference to function template instantiation 'void Test7<BSTree<T>>(void)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(548): error C2668: 'BSTree<T>::BSTree' : ambiguous call to overloaded function
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(68): could be 'BSTree<T>::BSTree(ObjectAllocator *,bool)'
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(67): or       'BSTree<T>::BSTree(void)'
+                 with
+                 [
+                     T=int
+                 ]
+                 while trying to match the argument list '()'
+                 g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(890) : see reference to function template instantiation 'void Test8<BSTree<T>>(void)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(102): warning C4520: 'BSTree<char>' : multiple default constructors specified
+                 g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(592) : see reference to class template instantiation 'BSTree<char>' being compiled
+                 g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(890) : see reference to function template instantiation 'void TestIndex<BSTree<char>>(void)' being compiled
+     1>g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(592): error C2668: 'BSTree<char>::BSTree' : ambiguous call to overloaded function
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(68): could be 'BSTree<char>::BSTree(ObjectAllocator *,bool)'
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(67): or       'BSTree<char>::BSTree(void)'
+                 while trying to match the argument list '()'
+     1>g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(102): warning C4520: 'BSTree<U>' : multiple default constructors specified
+                 g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(706) : see reference to class template instantiation 'BSTree<U>' being compiled
+                 g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(890) : see reference to function template instantiation 'void TestStrings<BSTree<U>>(void)' being compiled
+     1>g:\dropbox\private\school\y3\f14\cs280\a4\driver-sample.cpp(706): error C2668: 'BSTree<U>::BSTree' : ambiguous call to overloaded function
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(68): could be 'BSTree<U>::BSTree(ObjectAllocator *,bool)'
+                 g:\dropbox\private\school\y3\f14\cs280\a4\bstree.h(67): or       'BSTree<U>::BSTree(void)'
+                 while trying to match the argument list '()'
+     1>Done Building Project "G:\Dropbox\Private\School\Y3\F14\CS280\A4\A4\A4\A4.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.44

@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+dD:\altera
+Einstruction_decoder
+Z0 w1415316893
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Louie\Desktop\ece399 project
+Z5 8C:\Users\Louie\Desktop\ece399 project\instruction_decoder.vhd
+Z6 FC:\Users\Louie\Desktop\ece399 project\instruction_decoder.vhd
+l0
+L10
+V;am4bSlgLXNO8@2HzO31<0
+Z7 OV;C;10.1d;51
+33
+Z8 !s108 1415317218.087000
+Z9 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:\Users\Louie\Desktop\ece399 project\instruction_decoder.vhd|
+Z10 !s107 C:\Users\Louie\Desktop\ece399 project\instruction_decoder.vhd|
+Z11 o-work work -2008 -explicit -O0
+Z12 tExplicit 1
+!s100 k@e3YQJ1J264lhIDmA_Ol1
+!i10b 1
+Aid
+R1
+R2
+R3
+DEx4 work 19 instruction_decoder 0 22 ;am4bSlgLXNO8@2HzO31<0
+l29
+L15
+VTmI9`m@>=G>161cN]_nRo0
+!s100 m3o0dL@3m`Z9W3R8ZO57L2
+R7
+33
+R8
+R9
+R10
+R11
+R12
+!i10b 1
+Etestbench
+Z13 w1415317219
+R1
+R2
+R3
+R4
+Z14 8C:\Users\Louie\Desktop\ece399 project\testbench.vhd
+Z15 FC:\Users\Louie\Desktop\ece399 project\testbench.vhd
+l0
+L8
+VYczhMkjgU?S9Nlfz[J7?a1
+!s100 oM;1dNm1]3Bb@FIJMOo5z1
+R7
+33
+!i10b 1
+Z16 !s108 1415317219.452000
+Z17 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:\Users\Louie\Desktop\ece399 project\testbench.vhd|
+Z18 !s107 C:\Users\Louie\Desktop\ece399 project\testbench.vhd|
+R11
+R12
+Atb
+R1
+R2
+R3
+Z19 DEx4 work 9 testbench 0 22 YczhMkjgU?S9Nlfz[J7?a1
+l23
+L12
+VomHm]Z;W:^Sg_HjV9EVab0
+!s100 Pk[=Wo:T0a=j9a^0<dUX72
+R7
+33
+!i10b 1
+R16
+R17
+R18
+R11
+R12

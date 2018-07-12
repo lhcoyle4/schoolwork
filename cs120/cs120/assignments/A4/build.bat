@@ -1,0 +1,1 @@
+gcc -O -Wall -Wextra -ansi -pedantic main.c palindrome1.c palindrome2.c -o pal.exe

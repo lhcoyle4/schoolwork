@@ -1,0 +1,1 @@
+gcc -O -Wall -Wextra -Werror -ansi -pedantic driver.c scantext.c -o scantext

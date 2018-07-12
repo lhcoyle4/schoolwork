@@ -1,0 +1,1 @@
+gcc -Wall -Wextra -ansi -pedantic main.c triple_cube.c -o triple_cube.exe

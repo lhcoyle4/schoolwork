@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Oct 07 18:25:57 2014
+Quartus II 64-Bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : segdriver
+Top-level Entity Name : segdriver
+Family : Cyclone II
+Total logic elements : 14
+    Total combinational functions : 14
+    Dedicated logic registers : 14
+Total registers : 14
+Total pins : 23
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

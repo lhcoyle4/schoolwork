@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;gari_rxtouart/init.c&apos; to &apos;system.c&apos;" description="Rename resource &apos;init.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="init.c" name="system.c" stamp="1411111474954" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;gari_rxtouart/init.h&apos; to &apos;system.h&apos;" description="Rename resource &apos;init.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="init.h" name="system.h" stamp="1411111487294" updateReferences="true"/>
+</session>

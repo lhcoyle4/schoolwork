@@ -1,0 +1,1 @@
+gcc -O -Wall -Wextra -ansi -pedantic -Werror

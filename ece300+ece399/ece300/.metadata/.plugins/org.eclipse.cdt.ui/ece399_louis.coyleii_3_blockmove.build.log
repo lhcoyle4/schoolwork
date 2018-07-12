@@ -1,0 +1,17 @@
+
+**** Build of configuration Debug for project ece399_louis.coyleii_3_blockmove ****
+
+"D:\\ti\\ccsv5\\utils\\bin\\gmake" -k all 
+'Building file: ../ece399_louis.coyleii_3_blockmove.s'
+'Invoking: ARM Compiler'
+"D:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="D:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --include_path="D:/ti/TivaWare_C_Series-2.0.1.11577" -g --diag_warning=225 --display_error_number --diag_wrap=off --preproc_with_compile --preproc_dependency="ece399_louis.coyleii_3_blockmove.pp"  "../ece399_louis.coyleii_3_blockmove.s"
+'Finished building: ../ece399_louis.coyleii_3_blockmove.s'
+' '
+'Building target: ece399_louis.coyleii_3_blockmove.out'
+'Invoking: ARM Linker'
+"D:/ti/ccsv5/tools/compiler/arm_5.1.1/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me -g --diag_warning=225 --display_error_number --diag_wrap=off -z -m"ece399_louis.coyleii_3_blockmove.map" --heap_size=2048 --stack_size=2048 -i"D:/ti/ccsv5/tools/compiler/arm_5.1.1/lib" -i"D:/ti/ccsv5/tools/compiler/arm_5.1.1/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="ece399_louis.coyleii_3_blockmove_linkInfo.xml" --rom_model -o "ece399_louis.coyleii_3_blockmove.out"  "./tm4c123gh6pm_startup_ccs.obj" "./main.obj" "./ece399_louis.coyleii_3_blockmove.obj" "D:/ti/TivaWare_C_Series-2.0.1.11577/driverlib/ccs/Debug/driverlib.lib" "../tm4c123gh6pm.cmd" -l"libc.a" 
+<Linking>
+'Finished building target: ece399_louis.coyleii_3_blockmove.out'
+' '
+
+**** Build Finished ****

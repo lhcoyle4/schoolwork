@@ -1,0 +1,41 @@
+|my_first_fpga
+KEY[0] => reset_n.DATAIN
+CLOCK_50 => LEDR[0]~reg0.CLK
+CLOCK_50 => LEDR[1]~reg0.CLK
+CLOCK_50 => LEDR[2]~reg0.CLK
+CLOCK_50 => LEDR[3]~reg0.CLK
+CLOCK_50 => reset_n.CLK
+CLOCK_50 => count[0].CLK
+CLOCK_50 => count[1].CLK
+CLOCK_50 => count[2].CLK
+CLOCK_50 => count[3].CLK
+CLOCK_50 => count[4].CLK
+CLOCK_50 => count[5].CLK
+CLOCK_50 => count[6].CLK
+CLOCK_50 => count[7].CLK
+CLOCK_50 => count[8].CLK
+CLOCK_50 => count[9].CLK
+CLOCK_50 => count[10].CLK
+CLOCK_50 => count[11].CLK
+CLOCK_50 => count[12].CLK
+CLOCK_50 => count[13].CLK
+CLOCK_50 => count[14].CLK
+CLOCK_50 => count[15].CLK
+CLOCK_50 => count[16].CLK
+CLOCK_50 => count[17].CLK
+CLOCK_50 => count[18].CLK
+CLOCK_50 => count[19].CLK
+CLOCK_50 => count[20].CLK
+CLOCK_50 => count[21].CLK
+CLOCK_50 => count[22].CLK
+CLOCK_50 => count[23].CLK
+CLOCK_50 => count[24].CLK
+CLOCK_50 => count[25].CLK
+CLOCK_50 => count[26].CLK
+CLOCK_50 => count[27].CLK
+LEDR[0] <= LEDR[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= LEDR[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= LEDR[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= LEDR[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

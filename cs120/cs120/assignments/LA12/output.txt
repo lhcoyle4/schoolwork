@@ -1,0 +1,28 @@
+
+============== Test 1 ================
+ Input string: |This|
+Output string: |This|
+ Input string: |This is|
+Output string: |is This|
+ Input string: |This is a|
+Output string: |a is This|
+ Input string: |This is a string|
+Output string: |string a is This|
+ Input string: |forth brought fathers our ago years seven and score Four|
+Output string: |Four score and seven years ago our fathers brought forth|
+ Input string: |   This  is another   string |
+Output string: | string   another is  This   |
+
+============== Test 2 ================
+ Input string: |This|
+Output string: |This|
+ Input string: |This is|
+Output string: |is This|
+ Input string: |This is a|
+Output string: |a is This|
+ Input string: |This is a string|
+Output string: |string a is This|
+ Input string: |forth brought fathers our ago years seven and score Four|
+Output string: |Four score and seven years ago our fathers brought forth|
+ Input string: |   This  is another   string |
+Output string: | string   another is  This   |

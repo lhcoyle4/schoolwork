@@ -1,0 +1,38 @@
+; Louis Coyle II
+; Email: lhcoyle4@gmail.com
+; DigiPen login: louis.coyleii
+; Course: ECE399
+; Assignment: 6 - arm16 strcpy
+; Date: 11/25/14
+
+  .text
+  .state16
+  .global strcpy_arm16
+
+; r0 will contain the source address to copy values from memory
+source: .set r0
+
+; r1 will contain the dest address to copy values into memory 
+dest: .set r1
+
+strcpy_arm16:
+  PUSH lr
+
+  CMP source, dest
+
+  BEQ return
+
+copy:
+  LDRB r3, [source]
+  STRB r3, [dest]
+
+  ADD source, #1
+  ADD dest, #1
+
+  CMP r3, #0
+  BEQ return
+  B copy
+
+return:
+  POP pc
+  .end

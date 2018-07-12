@@ -1,0 +1,1 @@
+gcc -Werror -Wall -Wextra -ansi -pedantic -O main.c sieve.c -o lab4
